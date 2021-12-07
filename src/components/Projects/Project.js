@@ -1,4 +1,4 @@
-import { projects } from "../../portfolio";
+import React from 'react'
 
 export default function Project() {
   return (

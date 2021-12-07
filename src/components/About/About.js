@@ -1,3 +1,4 @@
+import React from 'react'
 import { about } from "../../portfolio";
 import './About.css'
 

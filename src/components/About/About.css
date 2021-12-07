@@ -4,17 +4,18 @@
 }
 
 .about-name {
-  color: var(--clr-primary);
+  color: #cbacac;
 }
 
 .about-role {
   margin-top: 1.2em;
+  font-size: 3rem;
 }
 
 .about-desc {
   font-size: 1rem;
-  max-width: 600px;
   margin-top: 2.4em;
+  display: flex;
 }
 
 @media (max-width: 600px) {
