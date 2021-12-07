@@ -1,4 +1,5 @@
 import { about } from "../../portfolio";
+import './About.css'
 
 export default function About() {
   const { name, role, description, resume, social } = about;
