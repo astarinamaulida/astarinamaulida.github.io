@@ -1,6 +1,6 @@
-import React from 'react';
-import './Project.css'
-import { createMedia } from '@artsy/fresnel'
+import React from "react";
+import "./Project.css";
+import { createMedia } from "@artsy/fresnel";
 
 export default function Project() {
   const { MediaContextProvider, Media } = createMedia({
@@ -8,28 +8,32 @@ export default function Project() {
       sm: 0,
       md: 1025,
     },
-  })
+  });
 
   return (
     <section id="projects" className="section-projects">
       <h2 className="about-projects">Projects</h2>
       <div className="projects">
         <div className="project-header">
-
           <h2 className="projects-title">Paykids</h2>
         </div>
         <span className="project-image">
           <a href="https://github.com/astarinamaulida/paykids">
-          <MediaContextProvider>
-                <Media at="sm">
-                  <img src="https://github.com/astarinamaulida/paykids/blob/master/docs/01_landing_login_page.gif?raw=true" alt="" />
-                </Media>
-                <Media greaterThanOrEqual="md">
-                  <img src="https://github.com/astarinamaulida/paykids/blob/master/docs/01_landing_login_page.gif?raw=true" alt="" />
-                </Media>
-              </MediaContextProvider>
+            <MediaContextProvider>
+              <Media at="sm">
+                <img
+                  src="https://github.com/astarinamaulida/paykids/blob/master/docs/01_landing_login_page.gif?raw=true"
+                  alt=""
+                />
+              </Media>
+              <Media greaterThanOrEqual="md">
+                <img
+                  src="https://github.com/astarinamaulida/paykids/blob/master/docs/01_landing_login_page.gif?raw=true"
+                  alt=""
+                />
+              </Media>
+            </MediaContextProvider>
           </a>
-          
         </span>
         <h3 className="projects-stack">Stack</h3>
         <p>React, PostgreSQL, Node.js, Express, CSS3, Material-UI</p>
@@ -45,14 +49,20 @@ export default function Project() {
         </div>
         <span className="project-image">
           <a href="https://github.com/astarinamaulida/cravings">
-          <MediaContextProvider>
-                <Media at="sm">
-                  <img src="https://i.ibb.co/VC3Dw9W/gif-cravings.gif" alt="" />
-                </Media>
-                <Media greaterThanOrEqual="md">
-                  <img src="https://i.ibb.co/VC3Dw9W/gif-cravings.gif" alt="" />
-                </Media>
-              </MediaContextProvider>
+            <MediaContextProvider>
+              <Media at="sm">
+                <img
+                  src="https://github.com/astarinamaulida/tinyapp/raw/master/docs/my-URLs.png"
+                  alt=""
+                />
+              </Media>
+              <Media greaterThanOrEqual="md">
+                <img
+                  src="https://github.com/astarinamaulida/tinyapp/raw/master/docs/my-URLs.png"
+                  alt=""
+                />
+              </Media>
+            </MediaContextProvider>
           </a>
         </span>
         <h3 className="projects-stack">Stack</h3>
@@ -71,7 +81,22 @@ export default function Project() {
           <h2 className="projects-title">Interview Scheduler</h2>
         </div>
         <span className="project-image">
-          <a href="https://github.com/astarinamaulida/scheduler"></a>
+          <a href="https://github.com/astarinamaulida/scheduler">
+            <MediaContextProvider>
+              <Media at="sm">
+                <img
+                  src="https://github.com/astarinamaulida/tinyapp/raw/master/docs/my-URLs.png"
+                  alt=""
+                />
+              </Media>
+              <Media greaterThanOrEqual="md">
+                <img
+                  src="https://github.com/astarinamaulida/tinyapp/raw/master/docs/my-URLs.png"
+                  alt=""
+                />
+              </Media>
+            </MediaContextProvider>
+          </a>
         </span>
         <h3 className="projects-stack">Stack</h3>
         <p>
@@ -87,25 +112,25 @@ export default function Project() {
         </p>
 
         <div className="project-header">
-          <h2 className="projects-title">Paykids</h2>
-        </div>
-        <span className="project-image">
-          <a href="https://github.com"></a>
-        </span>
-        <h3 className="projects-stack">Stack</h3>
-        <p>React, PostgreSQL, Node.js, Express, CSS3, Material-UI</p>
-        <h3 className="projects-desc">Description</h3>
-        <p>
-          PayKids is a multi-page React application, that allows children to
-          customise their own virtual debit cards and bank account user
-          interface.
-        </p>
-
-        <div className="project-header">
           <h2 className="projects-title">Tweeter</h2>
         </div>
         <span className="project-image">
-          <a href="https://github.com/astarinamaulida/tweeter"></a>
+          <a href="https://github.com/astarinamaulida/tweeter">
+            <MediaContextProvider>
+              <Media at="sm">
+                <img
+                  src="https://github.com/astarinamaulida/tinyapp/raw/master/docs/my-URLs.png"
+                  alt=""
+                />
+              </Media>
+              <Media greaterThanOrEqual="md">
+                <img
+                  src="https://github.com/astarinamaulida/tinyapp/raw/master/docs/my-URLs.png"
+                  alt=""
+                />
+              </Media>
+            </MediaContextProvider>
+          </a>
         </span>
         <h3 className="projects-stack">Stack</h3>
         <p>Node.js, Express.js,PostgreSQL, jQuery, HTML5, CSS3</p>
@@ -116,7 +141,22 @@ export default function Project() {
           <h2 className="projects-title">Jungle Rails</h2>
         </div>
         <span className="project-image">
-          <a href="https://github.com/astarinamaulida/tweeter"></a>
+          <a href="https://github.com/astarinamaulida/tweeter">
+          <MediaContextProvider>
+              <Media at="sm">
+                <img
+                  src="https://github.com/astarinamaulida/tinyapp/raw/master/docs/my-URLs.png"
+                  alt=""
+                />
+              </Media>
+              <Media greaterThanOrEqual="md">
+                <img
+                  src="https://github.com/astarinamaulida/tinyapp/raw/master/docs/my-URLs.png"
+                  alt=""
+                />
+              </Media>
+            </MediaContextProvider>
+          </a>
         </span>
         <h3 className="projects-stack">Stack</h3>
         <p>
@@ -134,7 +174,22 @@ export default function Project() {
           <h2 className="projects-title">Tiny App</h2>
         </div>
         <span className="project-image">
-          <a href="https://github.com/astarinamaulida/tinyapp"></a>
+          <a href="https://github.com/astarinamaulida/tinyapp">
+          <MediaContextProvider>
+              <Media at="sm">
+                <img
+                  src="https://github.com/astarinamaulida/tinyapp/raw/master/docs/my-URLs.png"
+                  alt=""
+                />
+              </Media>
+              <Media greaterThanOrEqual="md">
+                <img
+                  src="https://github.com/astarinamaulida/tinyapp/raw/master/docs/my-URLs.png"
+                  alt=""
+                />
+              </Media>
+            </MediaContextProvider>
+          </a>
         </span>
         <h3 className="projects-stack">Stack</h3>
         <p>Node.js, Express.js,EJS, bcrypt, HTML5, CSS3</p>
