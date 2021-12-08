@@ -1,6 +1,24 @@
-img {
-  max-width: 60%;
+.project-image {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.project-frame{
+  margin: 40px;
+  box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 60%;
+  max-height: auto;
 }

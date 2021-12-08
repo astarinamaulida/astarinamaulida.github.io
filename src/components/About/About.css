@@ -1,6 +1,10 @@
 .about {
   flex-direction: column;
   margin-top: 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-name {

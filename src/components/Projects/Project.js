@@ -13,7 +13,7 @@ export default function Project() {
   return (
     <section id="projects" className="section-projects">
       <h2 className="about-projects">Projects</h2>
-      <div className="projects">
+      <div className="project-frame">
         <div className="project-header">
           <h2 className="projects-title">Paykids</h2>
         </div>
@@ -43,7 +43,9 @@ export default function Project() {
           customise their own virtual debit cards and bank account user
           interface.
         </p>
+      </div>
 
+      <div className="project-frame">
         <div className="project-header">
           <h2 className="projects-title">Cravings</h2>
         </div>
@@ -51,16 +53,10 @@ export default function Project() {
           <a href="https://github.com/astarinamaulida/cravings">
             <MediaContextProvider>
               <Media at="sm">
-                <img
-                  src="https://i.ibb.co/VC3Dw9W/gif-cravings.gif"
-                  alt=""
-                />
+                <img src="https://i.ibb.co/VC3Dw9W/gif-cravings.gif" alt="" />
               </Media>
               <Media greaterThanOrEqual="md">
-                <img
-                  src="https://i.ibb.co/VC3Dw9W/gif-cravings.gif"
-                  alt=""
-                />
+                <img src="https://i.ibb.co/VC3Dw9W/gif-cravings.gif" alt="" />
               </Media>
             </MediaContextProvider>
           </a>
@@ -76,7 +72,9 @@ export default function Project() {
           uses Twilio as our API to implement SMS communication from the website
           to customers and the cakery shop.
         </p>
+      </div>
 
+      <div className="project-frame">
         <div className="project-header">
           <h2 className="projects-title">Interview Scheduler</h2>
         </div>
@@ -110,7 +108,9 @@ export default function Project() {
           for each components and the app is tested by using Jest for its unit
           testing. Cypress is used for automated testing.
         </p>
+      </div>
 
+      <div className="project-frame">
         <div className="project-header">
           <h2 className="projects-title">Tweeter</h2>
         </div>
@@ -136,46 +136,50 @@ export default function Project() {
         <p>Node.js, Express.js,PostgreSQL, jQuery, HTML5, CSS3</p>
         <h3 className="projects-desc">Description</h3>
         <p>Tweeter is a Single Page App (SPA) twitter clone project.</p>
-
-        <div className="project-header">
-          <h2 className="projects-title">Jungle Rails</h2>
         </div>
-        <span className="project-image">
-          <a href="https://github.com/astarinamaulida/tweeter">
-          <MediaContextProvider>
-              <Media at="sm">
-                <img
-                  src="https://github.com/astarinamaulida/jungle-rails/raw/master/public/gif/order.gif?raw=true"
-                  alt=""
-                />
-              </Media>
-              <Media greaterThanOrEqual="md">
-                <img
-                  src="https://github.com/astarinamaulida/jungle-rails/raw/master/public/gif/order.gif?raw=true"
-                  alt=""
-                />
-              </Media>
-            </MediaContextProvider>
-          </a>
-        </span>
-        <h3 className="projects-stack">Stack</h3>
-        <p>
-          Ruby on Rails, bcrypt,PostgreSQL, Bootstrap, Rspec,Capybara,
-          Poltergeist, HTML5, SCSS
-        </p>
-        <h3 className="projects-desc">Description</h3>
-        <p>
-          Jungle rails is an e-commerce platform built with Ruby on Rails. This
-          app uses Rspec for the unit testing and Capybara and Poltergeist. For
-          the API, this app uses Stripe for the payment.
-        </p>
 
+        <div className="project-frame">
+          <div className="project-header">
+            <h2 className="projects-title">Jungle Rails</h2>
+          </div>
+          <span className="project-image">
+            <a href="https://github.com/astarinamaulida/tweeter">
+              <MediaContextProvider>
+                <Media at="sm">
+                  <img
+                    src="https://github.com/astarinamaulida/jungle-rails/raw/master/public/gif/order.gif?raw=true"
+                    alt=""
+                  />
+                </Media>
+                <Media greaterThanOrEqual="md">
+                  <img
+                    src="https://github.com/astarinamaulida/jungle-rails/raw/master/public/gif/order.gif?raw=true"
+                    alt=""
+                  />
+                </Media>
+              </MediaContextProvider>
+            </a>
+          </span>
+          <h3 className="projects-stack">Stack</h3>
+          <p>
+            Ruby on Rails, bcrypt,PostgreSQL, Bootstrap, Rspec,Capybara,
+            Poltergeist, HTML5, SCSS
+          </p>
+          <h3 className="projects-desc">Description</h3>
+          <p>
+            Jungle rails is an e-commerce platform built with Ruby on Rails.
+            This app uses Rspec for the unit testing and Capybara and
+            Poltergeist. For the API, this app uses Stripe for the payment.
+          </p>
+        </div>
+
+      <div className="project-frame">
         <div className="project-header">
           <h2 className="projects-title">Tiny App</h2>
         </div>
         <span className="project-image">
           <a href="https://github.com/astarinamaulida/tinyapp">
-          <MediaContextProvider>
+            <MediaContextProvider>
               <Media at="sm">
                 <img
                   src="https://github.com/astarinamaulida/tinyapp/raw/master/docs/my-URLs.png"
