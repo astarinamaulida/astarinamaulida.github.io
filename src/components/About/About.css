@@ -13,13 +13,17 @@
 
 .about-role {
   margin-top: 1.2em;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .about-desc {
   font-size: 1rem;
   margin-top: 2.4em;
   display: flex;
+}
+
+h1 {
+  font-size: 3rem;
 }
 
 @media (max-width: 600px) {
