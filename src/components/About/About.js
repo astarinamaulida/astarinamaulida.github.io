@@ -10,6 +10,7 @@ export default function About() {
       <h1>
         Hi, I am <span className="about-name">{name}.</span>
       </h1>
+      
       <h2 className="about-role">{role}</h2>
       <p className="about-desc">{description}</p>
     </div>

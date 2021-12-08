@@ -2,7 +2,7 @@ const about = {
   name: 'Astarina Maulida',
   role: 'A Fullstack Developer',
   description:
-    'Having unique and complete perspectives, I have web development skills strengthened by my bachelor\'s in business management with finance, which provides logic with great business acumen. I learned my visual and artistic design from a fashion design diploma from Milan where I learned a lot about colour palette trends, proportions, product designs and more.',
+    'Having unique and complete perspectives, I have web development skills strengthened by my bachelor\'s in business management with finance, which provides logic and business acumen.    I enhanced my visual and artistic design from a fashion design diploma from Milan where I learned a lot about colour palette trends, proportions, product designs and more.',
   resume: '',
   social: {
     linkedin: 'https://www.linkedin.com/in/astarinamaulida/',
