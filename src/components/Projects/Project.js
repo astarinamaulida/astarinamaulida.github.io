@@ -25,7 +25,7 @@ export default function Project() {
                   <img src="https://github.com/astarinamaulida/paykids/blob/master/docs/01_landing_login_page.gif?raw=true" alt="" />
                 </Media>
                 <Media greaterThanOrEqual="md">
-                  <img src="https://github.com/nsagias/lhl_final/raw/master/docs/04_choose_cards.gif" alt="" />
+                  <img src="https://github.com/astarinamaulida/paykids/blob/master/docs/01_landing_login_page.gif?raw=true" alt="" />
                 </Media>
               </MediaContextProvider>
           </a>
