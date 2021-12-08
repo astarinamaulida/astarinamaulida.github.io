@@ -1,6 +1,6 @@
 {
-  "homepage": "http://astarinamaulida.github.io/my-app",
-  "name": "astarinamaulida.github.io",
+  "homepage": "https://astarinamaulida.github.io/my-app",
+  "name": "my-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
