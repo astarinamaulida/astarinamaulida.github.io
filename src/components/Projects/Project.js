@@ -1,16 +1,35 @@
 import React from 'react';
 import './Project.css'
+import { createMedia } from '@artsy/fresnel'
 
 export default function Project() {
+  const { MediaContextProvider, Media } = createMedia({
+    breakpoints: {
+      sm: 0,
+      md: 1025,
+    },
+  })
+
   return (
     <section id="projects" className="section-projects">
       <h2 className="about-projects">Projects</h2>
       <div className="projects">
         <div className="project-header">
+
           <h2 className="projects-title">Paykids</h2>
         </div>
         <span className="project-image">
-          <a href="https://github.com"></a>
+          <a href="https://github.com/astarinamaulida/paykids">
+          <MediaContextProvider>
+                <Media at="sm">
+                  <img src="https://github.com/astarinamaulida/paykids/blob/master/docs/01_landing_login_page.gif?raw=true" alt="" />
+                </Media>
+                <Media greaterThanOrEqual="md">
+                  <img src="https://github.com/nsagias/lhl_final/raw/master/docs/04_choose_cards.gif" alt="" />
+                </Media>
+              </MediaContextProvider>
+          </a>
+          
         </span>
         <h3 className="projects-stack">Stack</h3>
         <p>React, PostgreSQL, Node.js, Express, CSS3, Material-UI</p>
