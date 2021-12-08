@@ -44,7 +44,16 @@ export default function Project() {
           <h2 className="projects-title">Cravings</h2>
         </div>
         <span className="project-image">
-          <a href="https://github.com/astarinamaulida/cravings"></a>
+          <a href="https://github.com/astarinamaulida/cravings">
+          <MediaContextProvider>
+                <Media at="sm">
+                  <img src="https://i.ibb.co/VC3Dw9W/gif-cravings.gif" alt="" />
+                </Media>
+                <Media greaterThanOrEqual="md">
+                  <img src="https://i.ibb.co/VC3Dw9W/gif-cravings.gif" alt="" />
+                </Media>
+              </MediaContextProvider>
+          </a>
         </span>
         <h3 className="projects-stack">Stack</h3>
         <p>
