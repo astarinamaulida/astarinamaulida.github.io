@@ -52,13 +52,13 @@ export default function Project() {
             <MediaContextProvider>
               <Media at="sm">
                 <img
-                  src="https://github.com/astarinamaulida/tinyapp/raw/master/docs/my-URLs.png"
+                  src="https://i.ibb.co/VC3Dw9W/gif-cravings.gif"
                   alt=""
                 />
               </Media>
               <Media greaterThanOrEqual="md">
                 <img
-                  src="https://github.com/astarinamaulida/tinyapp/raw/master/docs/my-URLs.png"
+                  src="https://i.ibb.co/VC3Dw9W/gif-cravings.gif"
                   alt=""
                 />
               </Media>
@@ -85,13 +85,13 @@ export default function Project() {
             <MediaContextProvider>
               <Media at="sm">
                 <img
-                  src="https://github.com/astarinamaulida/tinyapp/raw/master/docs/my-URLs.png"
+                  src="https://github.com/astarinamaulida/scheduler/raw/master/public/GIF/scheduler_new_appointment.gif?raw=true"
                   alt=""
                 />
               </Media>
               <Media greaterThanOrEqual="md">
                 <img
-                  src="https://github.com/astarinamaulida/tinyapp/raw/master/docs/my-URLs.png"
+                  src="https://github.com/astarinamaulida/scheduler/raw/master/public/GIF/scheduler_new_appointment.gif?raw=true"
                   alt=""
                 />
               </Media>
@@ -119,13 +119,13 @@ export default function Project() {
             <MediaContextProvider>
               <Media at="sm">
                 <img
-                  src="https://github.com/astarinamaulida/tinyapp/raw/master/docs/my-URLs.png"
+                  src="https://github.com/astarinamaulida/tweeter/raw/master/docs/tweeter-demo.gif"
                   alt=""
                 />
               </Media>
               <Media greaterThanOrEqual="md">
                 <img
-                  src="https://github.com/astarinamaulida/tinyapp/raw/master/docs/my-URLs.png"
+                  src="https://github.com/astarinamaulida/tweeter/raw/master/docs/tweeter-demo.gif"
                   alt=""
                 />
               </Media>
@@ -145,13 +145,13 @@ export default function Project() {
           <MediaContextProvider>
               <Media at="sm">
                 <img
-                  src="https://github.com/astarinamaulida/tinyapp/raw/master/docs/my-URLs.png"
+                  src="https://github.com/astarinamaulida/jungle-rails/raw/master/public/gif/order.gif?raw=true"
                   alt=""
                 />
               </Media>
               <Media greaterThanOrEqual="md">
                 <img
-                  src="https://github.com/astarinamaulida/tinyapp/raw/master/docs/my-URLs.png"
+                  src="https://github.com/astarinamaulida/jungle-rails/raw/master/public/gif/order.gif?raw=true"
                   alt=""
                 />
               </Media>
