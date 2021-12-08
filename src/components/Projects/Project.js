@@ -98,7 +98,7 @@ export default function Project() {
         </span>
         <h3 className="projects-stack">Stack</h3>
         <p>
-          React, PostgreSQL,Javascript, Axios, Express.js, Classnames,
+          React, PostgreSQL, Javascript, Axios, Express.js, Classnames,
           Normalize, Storybook, Jest, Cypress, HTML5, CSS3
         </p>
         <h3 className="projects-desc">Description</h3>
@@ -133,7 +133,7 @@ export default function Project() {
           </a>
         </span>
         <h3 className="projects-stack">Stack</h3>
-        <p>Node.js, Express.js,PostgreSQL, jQuery, HTML5, CSS3</p>
+        <p>Node.js, Express.js, PostgreSQL, jQuery, HTML5, CSS3</p>
         <h3 className="projects-desc">Description</h3>
         <p>Tweeter is a Single Page App (SPA) twitter clone project.</p>
         </div>
@@ -162,7 +162,7 @@ export default function Project() {
           </span>
           <h3 className="projects-stack">Stack</h3>
           <p>
-            Ruby on Rails, bcrypt,PostgreSQL, Bootstrap, Rspec,Capybara,
+            Ruby on Rails, bcrypt, PostgreSQL, Bootstrap, Rspec, Capybara,
             Poltergeist, HTML5, SCSS
           </p>
           <h3 className="projects-desc">Description</h3>
@@ -196,7 +196,7 @@ export default function Project() {
           </a>
         </span>
         <h3 className="projects-stack">Stack</h3>
-        <p>Node.js, Express.js,EJS, bcrypt, HTML5, CSS3</p>
+        <p>Node.js, Express.js, EJS, bcrypt, HTML5, CSS3</p>
         <h3 className="projects-desc">Description</h3>
         <p>
           Tinyapp is an app that allows users to shorten long URLs. It is
