@@ -21,4 +21,11 @@ img{
   display: block;
   max-width: 70%;
   max-height: auto;
+  padding: 30px;
+}
+
+.about-projects{
+  margin-top: 1.2em;
+  font-size: 2rem;
+  text-align: center;
 }
