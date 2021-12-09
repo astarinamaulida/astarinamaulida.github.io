@@ -137,59 +137,24 @@ export default function Project() {
         <p>Node.js, Express.js, PostgreSQL, jQuery, HTML5, CSS3</p>
         <h3 className="projects-desc">Description</h3>
         <p>Tweeter is a Single Page App (SPA) twitter clone project.</p>
-        </div>
-
-        <div className="project-frame">
-          <div className="project-header">
-            <h2 className="projects-title">Jungle Rails</h2>
-          </div>
-          <span className="project-image">
-            <a href="https://github.com/astarinamaulida/tweeter">
-              <MediaContextProvider>
-                <Media at="sm">
-                  <img
-                    src="https://github.com/astarinamaulida/jungle-rails/raw/master/public/gif/order.gif?raw=true"
-                    alt=""
-                  />
-                </Media>
-                <Media greaterThanOrEqual="md">
-                  <img
-                    src="https://github.com/astarinamaulida/jungle-rails/raw/master/public/gif/order.gif?raw=true"
-                    alt=""
-                  />
-                </Media>
-              </MediaContextProvider>
-            </a>
-          </span>
-          <h3 className="projects-stack">Stack</h3>
-          <p>
-            Ruby on Rails, bcrypt, PostgreSQL, Bootstrap, Rspec, Capybara,
-            Poltergeist, HTML5, SCSS
-          </p>
-          <h3 className="projects-desc">Description</h3>
-          <p>
-            Jungle rails is an e-commerce platform built with Ruby on Rails.
-            This app uses Rspec for the unit testing and Capybara and
-            Poltergeist. For the API, this app uses Stripe for the payment.
-          </p>
-        </div>
+      </div>
 
       <div className="project-frame">
         <div className="project-header">
-          <h2 className="projects-title">HIJABTALE</h2>
+          <h2 className="projects-title">Jungle Rails</h2>
         </div>
         <span className="project-image">
-          <a href="https://github.com/astarinamaulida/tinyapp">
+          <a href="https://github.com/astarinamaulida/tweeter">
             <MediaContextProvider>
               <Media at="sm">
                 <img
-                  src="https://hijabtale.com"
+                  src="https://github.com/astarinamaulida/jungle-rails/raw/master/public/gif/order.gif?raw=true"
                   alt=""
                 />
               </Media>
               <Media greaterThanOrEqual="md">
                 <img
-                  src="https://hijabtale.com"
+                  src="https://github.com/astarinamaulida/jungle-rails/raw/master/public/gif/order.gif?raw=true"
                   alt=""
                 />
               </Media>
@@ -197,11 +162,15 @@ export default function Project() {
           </a>
         </span>
         <h3 className="projects-stack">Stack</h3>
-        <p>Node.js, Express.js, EJS, bcrypt, HTML5, CSS3</p>
+        <p>
+          Ruby on Rails, bcrypt, PostgreSQL, Bootstrap, Rspec, Capybara,
+          Poltergeist, HTML5, SCSS
+        </p>
         <h3 className="projects-desc">Description</h3>
         <p>
-          Tinyapp is an app that allows users to shorten long URLs. It is
-          similar to bit.ly and TinyURL.
+          Jungle rails is an e-commerce platform built with Ruby on Rails. This
+          app uses Rspec for the unit testing and Capybara and Poltergeist. For
+          the API, this app uses Stripe for the payment.
         </p>
       </div>
 
@@ -233,6 +202,37 @@ export default function Project() {
         <p>
           Tinyapp is an app that allows users to shorten long URLs. It is
           similar to bit.ly and TinyURL.
+        </p>
+      </div>
+
+      <div className="project-frame">
+        <div className="project-header">
+          <h2 className="projects-title">HIJABTALE</h2>
+        </div>
+        <span className="project-image">
+          <a href="https://hijabtale.com">
+            <MediaContextProvider>
+              <Media at="sm">
+                <img
+                  src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/HIJABTALE.gif?raw=true"
+                  alt=""
+                />
+              </Media>
+              <Media greaterThanOrEqual="md">
+                <img
+                  src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/HIJABTALE.gif?raw=true"
+                  alt=""
+                />
+              </Media>
+            </MediaContextProvider>
+          </a>
+        </span>
+        <h3 className="projects-stack">Platform</h3>
+        <p>Shopify</p>
+        <h3 className="projects-desc">Description</h3>
+        <p>
+          HIJABTALE is Canada hijab's online store which established and
+          designed using Shopify platform
         </p>
       </div>
     </section>
