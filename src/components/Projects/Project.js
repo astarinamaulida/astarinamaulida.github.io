@@ -232,7 +232,7 @@ export default function Project() {
         <h3 className="projects-desc">Description</h3>
         <p>
           HIJABTALE is Canada hijab's online store which established and
-          designed using Shopify platform
+          designed using Shopify platform. The UX UI follows the brand identity and target market.
         </p>
       </div>
     </section>
