@@ -43,7 +43,14 @@ export default function Project() {
           customise their own virtual debit cards and bank account user
           interface.
         </p>
-        <href link="https://github.com/astarinamaulida/paykids" />
+        <span>
+          <a href="https://github.com/astarinamaulida/paykids">
+            <img
+              className="github-logo"
+              src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/github-logo.png?raw=true"
+            ></img>
+          </a>
+        </span>
       </div>
 
       <div className="project-frame">
@@ -73,6 +80,14 @@ export default function Project() {
           uses Twilio as our API to implement SMS communication from the website
           to customers and the cakery shop.
         </p>
+        <span>
+          <a href="https://github.com/astarinamaulida/cravings">
+            <img
+              className="github-logo"
+              src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/github-logo.png?raw=true"
+            ></img>
+          </a>
+        </span>
       </div>
 
       <div className="project-frame">
@@ -109,6 +124,14 @@ export default function Project() {
           for each components and the app is tested by using Jest for its unit
           testing. Cypress is used for automated testing.
         </p>
+        <span>
+          <a href="https://github.com/astarinamaulida/scheduler">
+            <img
+              className="github-logo"
+              src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/github-logo.png?raw=true"
+            ></img>
+          </a>
+        </span>
       </div>
 
       <div className="project-frame">
@@ -137,6 +160,14 @@ export default function Project() {
         <p>Node.js, Express.js, PostgreSQL, jQuery, HTML5, CSS3</p>
         <h3 className="projects-desc">Description</h3>
         <p>Tweeter is a Single Page App (SPA) twitter clone project.</p>
+        <span>
+          <a href="https://github.com/astarinamaulida/tweeter">
+            <img
+              className="github-logo"
+              src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/github-logo.png?raw=true"
+            ></img>
+          </a>
+        </span>
       </div>
 
       <div className="project-frame">
@@ -144,7 +175,7 @@ export default function Project() {
           <h2 className="projects-title">Jungle Rails</h2>
         </div>
         <span className="project-image">
-          <a href="https://github.com/astarinamaulida/tweeter">
+          <a href="https://github.com/astarinamaulida/jungle-rails">
             <MediaContextProvider>
               <Media at="sm">
                 <img
@@ -172,6 +203,14 @@ export default function Project() {
           app uses Rspec for the unit testing and Capybara and Poltergeist. For
           the API, this app uses Stripe for the payment.
         </p>
+        <span>
+          <a href="https://github.com/astarinamaulida/jungle-rails">
+            <img
+              className="github-logo"
+              src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/github-logo.png?raw=true"
+            ></img>
+          </a>
+        </span>
       </div>
 
       <div className="project-frame">
@@ -203,6 +242,14 @@ export default function Project() {
           Tinyapp is an app that allows users to shorten long URLs. It is
           similar to bit.ly and TinyURL.
         </p>
+        <span>
+          <a href="https://github.com/astarinamaulida/tinyapp">
+            <img
+              className="github-logo"
+              src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/github-logo.png?raw=true"
+            ></img>
+          </a>
+        </span>
       </div>
 
       <div className="project-frame">
@@ -232,10 +279,16 @@ export default function Project() {
         <h3 className="projects-desc">Description</h3>
         <p>
           HIJABTALE is Canada hijab's online store which established and
-          designed using Shopify platform. The UX UI follows the brand identity and target market.
+          designed using Shopify platform. The UX UI follows the brand identity
+          and target market.
         </p>
-        <span className="github-logo">
-          <img src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/GitHub-Emblem.png?raw=true"></img>
+        <span>
+          <a href="https://hijabtale.com">
+            <img
+              className="github-logo"
+              src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/github-logo.png?raw=true"
+            ></img>
+          </a>
         </span>
       </div>
     </section>
