@@ -290,6 +290,44 @@ export default function Project() {
             ></img>
           </a>
         </span>
+
+        <div className="project-frame">
+        <div className="project-header">
+          <h2 className="projects-title">APP PROTOTYPE</h2>
+        </div>
+        <span className="project-image">
+          <a href="https://www.figma.com/file/LkfKmik1daxPvro2vLtDSf/Prototyping-in-Figma?node-id=0%3A1">
+            <MediaContextProvider>
+              <Media at="sm">
+                <img
+                  src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/figma-logo.png?raw=true"
+                  alt=""
+                />
+              </Media>
+              <Media greaterThanOrEqual="md">
+                <img
+                  src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/figma-logo.png?raw=true"
+                  alt=""
+                />
+              </Media>
+            </MediaContextProvider>
+          </a>
+        </span>
+        <h3 className="projects-stack">Platform</h3>
+        <p>Figma</p>
+        <h3 className="projects-desc">Description</h3>
+        <p>
+          Prototype for Cravings app using Figma and Canva for mobile and website.
+        </p>
+        <span>
+          <a href="https://www.figma.com/file/LkfKmik1daxPvro2vLtDSf/Prototyping-in-Figma?node-id=0%3A1">
+            <img
+              className="github-logo"
+              src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/figma-logo.png?raw=true"
+            ></img>
+          </a>
+        </span>
+      </div>
       </div>
     </section>
   );
