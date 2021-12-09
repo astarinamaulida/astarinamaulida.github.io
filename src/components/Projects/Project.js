@@ -176,6 +176,37 @@ export default function Project() {
 
       <div className="project-frame">
         <div className="project-header">
+          <h2 className="projects-title">HIJABTALE</h2>
+        </div>
+        <span className="project-image">
+          <a href="https://github.com/astarinamaulida/tinyapp">
+            <MediaContextProvider>
+              <Media at="sm">
+                <img
+                  src="https://hijabtale.com"
+                  alt=""
+                />
+              </Media>
+              <Media greaterThanOrEqual="md">
+                <img
+                  src="https://hijabtale.com"
+                  alt=""
+                />
+              </Media>
+            </MediaContextProvider>
+          </a>
+        </span>
+        <h3 className="projects-stack">Stack</h3>
+        <p>Node.js, Express.js, EJS, bcrypt, HTML5, CSS3</p>
+        <h3 className="projects-desc">Description</h3>
+        <p>
+          Tinyapp is an app that allows users to shorten long URLs. It is
+          similar to bit.ly and TinyURL.
+        </p>
+      </div>
+
+      <div className="project-frame">
+        <div className="project-header">
           <h2 className="projects-title">Tiny App</h2>
         </div>
         <span className="project-image">
