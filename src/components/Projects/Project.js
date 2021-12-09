@@ -234,6 +234,9 @@ export default function Project() {
           HIJABTALE is Canada hijab's online store which established and
           designed using Shopify platform. The UX UI follows the brand identity and target market.
         </p>
+        <span className="github-logo">
+          <img src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/GitHub-Emblem.png?raw=true"></img>
+        </span>
       </div>
     </section>
   );
