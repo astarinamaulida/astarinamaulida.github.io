@@ -290,6 +290,7 @@ export default function Project() {
             ></img>
           </a>
         </span>
+        </div>
 
         <div className="project-frame">
         <div className="project-header">
@@ -300,17 +301,32 @@ export default function Project() {
             <MediaContextProvider>
               <Media at="sm">
                 <img
-                  src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/figma-logo.png?raw=true"
+                  src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/figma-cravings1.png?raw=true"
                   alt=""
                 />
-              </Media>
+                </Media>
               <Media greaterThanOrEqual="md">
                 <img
-                  src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/figma-logo.png?raw=true"
+                  src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/figma-cravings1.png?raw=true"
                   alt=""
                 />
               </Media>
             </MediaContextProvider>
+            <MediaContextProvider>
+              <Media at="sm">
+                <img
+                  src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/figma-cravings2.png?raw=true"
+                  alt=""
+                />
+                </Media>
+              <Media greaterThanOrEqual="md">
+                <img
+                  src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/figma-cravings2.png?raw=true"
+                  alt=""
+                />
+              </Media>
+            </MediaContextProvider>
+
           </a>
         </span>
         <h3 className="projects-stack">Platform</h3>
@@ -327,7 +343,6 @@ export default function Project() {
             ></img>
           </a>
         </span>
-      </div>
       </div>
     </section>
   );
