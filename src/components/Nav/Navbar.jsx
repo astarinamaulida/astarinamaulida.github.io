@@ -1,6 +1,5 @@
 import React from "react";
-import { Link, Link as LinkScroll } from "react-scroll";
-import { skills, contact } from "../../portfolio";
+import { Link as LinkScroll } from "react-scroll";
 import "./Navbar.css";
 
 export default function Navbar() {
