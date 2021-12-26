@@ -41,6 +41,8 @@ const skills = [
   'Adobe Photoshop',
   'Canva',
   'Figma',
+  'Elementor',
+  'Wordpress',
 ]
 
 const contact = {
