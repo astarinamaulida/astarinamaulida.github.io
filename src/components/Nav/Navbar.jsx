@@ -26,6 +26,16 @@ export default function Navbar() {
       >
         Projects
       </LinkScroll>
+      <LinkScroll
+        activeClass="active"
+        to="contacts"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+      >
+        Contacts
+      </LinkScroll>
     </nav>
   );
 }
