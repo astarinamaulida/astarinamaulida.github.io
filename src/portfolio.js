@@ -47,8 +47,9 @@ const skills = [
 
 const contacts = {
   email: 'astarina.maulida@gmail.com',
-  github: 'https://github.com/astarinamaulida',
-  linkedin: 'https://www.linkedin.com/in/astarinamaulida/'
+  github: '@astarinamaulida',
+  linkedin: '@astarinamaulida',
+  instagram: '@astarinamaulida'
 }
 
 export { about, languages, skills, contacts }
