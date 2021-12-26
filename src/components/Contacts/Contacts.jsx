@@ -7,6 +7,7 @@ export default function Contacts() {
 
   return (
     <div className="contacts">
+      Contacts
       <div className="header">
       email: {email}
       <br/>
