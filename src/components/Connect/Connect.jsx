@@ -10,7 +10,7 @@ export default function Connect() {
       <h2 className="connect">Connect</h2>
       <div className="connect-frame">
         <div className="connect-icons">
-        <div>
+          <div>
             <span>
               <a href="mailto: astarina.maulida@gmail.com">
                 <img

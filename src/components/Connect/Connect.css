@@ -27,7 +27,6 @@
   gap:30px
 }
 
-
 .connect-icons {
   display: flex;
   flex-direction: row;
@@ -42,7 +41,6 @@
 .github-logo-connect {
   width: 110px;
   margin-left: 35px;
-  
 }
 
 .linkedin-logo-connect{
