@@ -20,3 +20,8 @@
 .github-logo-contacts{
   width: 100px;
 }
+
+.contact-list {
+ display: flex;
+ flex-direction: column;
+}

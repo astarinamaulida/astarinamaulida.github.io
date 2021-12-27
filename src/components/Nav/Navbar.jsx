@@ -27,6 +27,16 @@ export default function Navbar() {
       </LinkScroll>
       <LinkScroll
         activeClass="active"
+        to="skills"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+      >
+        Skills
+      </LinkScroll>
+      <LinkScroll
+        activeClass="active"
         to="contacts"
         spy={true}
         smooth={true}
