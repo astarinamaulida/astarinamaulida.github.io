@@ -10,6 +10,14 @@ export default function Connect() {
       <h2 className="connect">Connect</h2>
       <div className="connect-frame">
         <div className="connect-header">
+        <span>
+          <a href="https://hijabtale.com">
+            <img
+              className="github-logo"
+              src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/github-logo.png?raw=true"
+            ></img>
+          </a>
+        </span>
           <div className="connect-list">
             <div>{email}</div>
             <div>{github}</div>
