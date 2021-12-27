@@ -37,13 +37,13 @@ export default function Navbar() {
       </LinkScroll>
       <LinkScroll
         activeClass="active"
-        to="contacts"
+        to="connect"
         spy={true}
         smooth={true}
         offset={-70}
         duration={500}
       >
-        Contacts
+        Connect
       </LinkScroll>
     </nav>
   );

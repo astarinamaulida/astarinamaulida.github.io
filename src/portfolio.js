@@ -45,11 +45,11 @@ const skills = [
   'Wordpress.',
 ]
 
-const contacts = {
+const connect = {
   email: 'astarina.maulida@gmail.com',
   github: '@astarinamaulida',
   linkedin: '@astarinamaulida',
   instagram: '@astarinamaulida'
 }
 
-export { about, languages, skills, contacts }
+export { about, languages, skills, connect }
