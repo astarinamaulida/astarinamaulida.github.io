@@ -22,7 +22,29 @@
 }
 
 .connect-list {
- display: flex;
- flex-direction: row;
- gap:30px
+  display: flex;
+  flex-direction: row;
+  gap:30px
+}
+
+
+.connect-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.email-logo-connect{
+  width: 90px;
+  margin-left: 40px;
+}
+
+.github-logo-connect {
+  width: 110px;
+  margin-left: 35px;
+  
+}
+
+.linkedin-logo-connect{
+  width: 80px;
 }
