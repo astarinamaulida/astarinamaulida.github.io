@@ -3,7 +3,7 @@ import { about } from "../../portfolio";
 import "./About.css";
 
 export default function About() {
-  const { name, role, description, description2, description3, resume, social } = about;
+  const { name, role, description, description2, description3 } = about;
 
   return (
     <div className="about">
@@ -12,7 +12,7 @@ export default function About() {
         <br/>
         {role}</h1>
         <img
-          className="profile-pic"src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/profilepic.png?raw=true"
+          className="profile-pic" alt="profile pic" src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/profilepic.png?raw=true"
         />
       </div>
       <p className="about-desc">{description}</p>
