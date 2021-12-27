@@ -10,7 +10,7 @@ export default function Connect() {
       <h2 className="connect">Connect</h2>
       <div className="connect-frame">
         <div className="connect-header">
-          <div className="contact-list">
+          <div className="connect-list">
             <div>{email}</div>
             <div>{github}</div>
             <div>{linkedin}</div>
