@@ -13,3 +13,7 @@ nav {
 	gap: 30px;
 	cursor: pointer;
 }
+
+.nav-about:hover, .nav-projects:hover, .nav-skills:hover, .nav-connect:hover {
+	color: #654545;
+}
