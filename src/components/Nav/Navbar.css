@@ -12,4 +12,5 @@ nav {
   font-weight: 600;
 	gap: 30px;
 	text-decoration: underline;
+	cursor: pointer;
 }
