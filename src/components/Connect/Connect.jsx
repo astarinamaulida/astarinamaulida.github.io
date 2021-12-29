@@ -1,9 +1,7 @@
 import React from "react";
-import { connect } from "../../portfolio";
 import "./Connect.css";
 
 export default function Connect() {
-  const { email, github, linkedin } = connect;
 
   return (
     <section id="connect" className="section-connect">
@@ -40,11 +38,16 @@ export default function Connect() {
               </a>
             </span>
           </div>
-        </div>
-        <div className="connect-list">
-          <div>{email}</div>
-          <div>{github}</div>
-          <div>{linkedin}</div>
+          <div>
+            <span>
+              <a href="https://www.instagram.com/astarinamaulida/">
+                <img
+                  className="instagram-logo-connect"
+                  src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/instagram-logo.png?raw=true"
+                ></img>
+              </a>
+            </span>
+          </div>
         </div>
       </div>
     </section>
