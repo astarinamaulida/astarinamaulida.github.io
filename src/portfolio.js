@@ -6,6 +6,8 @@ const about = {
   description2:
     'I have unique perspectives as I have web development skills strengthened by my bachelor\'s in business management with finance, which provides logic and business acumen. I enhanced my visual and artistic design from a fashion design diploma from Milan where I learned a lot about colour palette trends, proportions, product designs and more.',
   description3:
+    'Apart from coding, I love books and enjoy my weekly library visit. I also love to travel and learn new languages, halo! ciao! bonjour! hola! kia ora! privet! salaam! anyeong haseyo! ni hao! konnichiwa! hello! hallo! namaste! Do not hesitate to reach me to have a chit chat in different languages, I love it! ❤️😊',
+  description4:
     'Thanks for visiting my portfolio website, I hope you enjoy it!',
   resume: '',
 }
