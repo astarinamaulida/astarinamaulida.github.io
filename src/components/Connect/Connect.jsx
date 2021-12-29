@@ -43,7 +43,7 @@ export default function Connect() {
               <a href="https://www.instagram.com/astarinamaulida/">
                 <img
                   className="instagram-logo-connect"
-                  src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/instagram-logo.png?raw=true"
+                  src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/instagram-logoo.png?raw=true"
                 ></img>
               </a>
             </span>
