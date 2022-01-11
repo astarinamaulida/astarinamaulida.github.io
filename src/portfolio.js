@@ -31,6 +31,8 @@ const skills = [
   'Bootstrap, ',
   'SASS, ',
   'Material UI, ',
+  'TailwindCSS',
+  'Gatsby',
   'Git, ',
   'PostgreSQL, ',
   'Jest, ',
