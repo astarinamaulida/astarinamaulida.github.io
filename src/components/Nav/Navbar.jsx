@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <nav className="nav">
       <LinkScroll
-        className="nav-about"
+        className="nav-link nav-about"
         activeClass="active"
         to="about"
         spy="true"
@@ -17,7 +17,7 @@ export default function Navbar() {
         About
       </LinkScroll>
       <LinkScroll
-        className="nav-projects"
+        className="nav-link nav-projects"
         activeClass="active"
         to="projects"
         spy={true}
@@ -28,7 +28,7 @@ export default function Navbar() {
         Projects
       </LinkScroll>
       <LinkScroll
-        className="nav-skills"
+        className="nav-link nav-skills"
         activeClass="active"
         to="skills"
         spy={true}
@@ -39,7 +39,7 @@ export default function Navbar() {
         Skills
       </LinkScroll>
       <LinkScroll
-        className="nav-connect"
+        className="nav-link nav-connect"
         activeClass="active"
         to="connect"
         spy={true}
@@ -48,6 +48,17 @@ export default function Navbar() {
         duration={500}
       >
         Connect
+      </LinkScroll>
+      <LinkScroll
+        className="nav-link nav-resume"
+        activeClass="active"
+        to="resume"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+      >
+        Resume
       </LinkScroll>
     </nav>
   );
