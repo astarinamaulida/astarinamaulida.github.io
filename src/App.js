@@ -12,18 +12,18 @@ import { styled } from '@mui/styles';
 import { bounce } from 'react-animations';
 
 function App() {
-  const DoubleArrow = styled(KeyboardDoubleArrowUpIcon)({
-    color: "#cbacac",
-    animation: "scrollBaby 80s linear infinite",
-    bounce: {
-      animationName: bounce,
-    }
-  })
+  // const DoubleArrow = styled(KeyboardDoubleArrowUpIcon)({
+  //   color: "#cbacac",
+  //   animation: "scrollBaby 80s linear infinite",
+  //   bounce: {
+  //     animationName: bounce,
+  //   }
+  // })
 
   return (
     <React.Fragment>
       <Navbar />
-      <DoubleArrow sx={{ fontSize: 50 }} color= "#cbacac" />
+      {/* <DoubleArrow sx={{ fontSize: 50 }} color= "#cbacac" /> */}
       <div className="App">
         <div className="wrapper">
           <About />
