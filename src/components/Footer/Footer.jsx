@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <div className="footer">
       <footer className="footer">
-        <p>@2021 - Developed and designed by Astarina Maulida</p>
+        <p>@2022 - Developed and designed by Astarina Maulida</p>
       </footer>
     </div>
   );
