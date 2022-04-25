@@ -15,17 +15,41 @@ export default function Project() {
       <h2 className="about-projects">Projects</h2>
       <div className="project-frame">
         <div className="project-header">
+          <h2 className="projects-title">MLOPS Institute</h2>
+        </div>
+        <span className="project-image">
+          <a href="https://github.com/astarinamaulida/paykids">
+            <MediaContextProvider>
+              <Media greaterThanOrEqual="md">
+                <img src="../mlops.gif" alt="" />
+              </Media>
+            </MediaContextProvider>
+          </a>
+        </span>
+        <h3 className="projects-stack">Stack</h3>
+        <p>React, CSS3, Chakra-UI</p>
+        <h3 className="projects-desc">Description</h3>
+        <p>
+          MLOPS Institute is a multi-page React application which allows user to
+          gain information about MLOPS Institute and certification program.
+        </p>
+        <span>
+          <a href="https://github.com/astarinamaulida/paykids">
+            <img
+              className="github-logo"
+              src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/github-logo.png?raw=true"
+            ></img>
+          </a>
+        </span>
+      </div>
+
+      <div className="project-frame">
+        <div className="project-header">
           <h2 className="projects-title">Paykids</h2>
         </div>
         <span className="project-image">
           <a href="https://github.com/astarinamaulida/paykids">
             <MediaContextProvider>
-              <Media at="sm">
-                <img
-                  src="https://github.com/astarinamaulida/paykids/blob/master/docs/01_landing_login_page.gif?raw=true"
-                  alt=""
-                />
-              </Media>
               <Media greaterThanOrEqual="md">
                 <img
                   src="https://github.com/astarinamaulida/paykids/blob/master/docs/01_landing_login_page.gif?raw=true"
@@ -60,9 +84,6 @@ export default function Project() {
         <span className="project-image">
           <a href="https://github.com/astarinamaulida/cravings">
             <MediaContextProvider>
-              <Media at="sm">
-                <img src="https://i.ibb.co/VC3Dw9W/gif-cravings.gif" alt="" />
-              </Media>
               <Media greaterThanOrEqual="md">
                 <img src="https://i.ibb.co/VC3Dw9W/gif-cravings.gif" alt="" />
               </Media>
@@ -97,12 +118,6 @@ export default function Project() {
         <span className="project-image">
           <a href="https://github.com/astarinamaulida/scheduler">
             <MediaContextProvider>
-              <Media at="sm">
-                <img
-                  src="https://github.com/astarinamaulida/scheduler/raw/master/public/GIF/scheduler_new_appointment.gif?raw=true"
-                  alt=""
-                />
-              </Media>
               <Media greaterThanOrEqual="md">
                 <img
                   src="https://github.com/astarinamaulida/scheduler/raw/master/public/GIF/scheduler_new_appointment.gif?raw=true"
@@ -141,12 +156,6 @@ export default function Project() {
         <span className="project-image">
           <a href="https://github.com/astarinamaulida/tweeter">
             <MediaContextProvider>
-              <Media at="sm">
-                <img
-                  src="https://github.com/astarinamaulida/tweeter/raw/master/docs/tweeter-demo.gif"
-                  alt=""
-                />
-              </Media>
               <Media greaterThanOrEqual="md">
                 <img
                   src="https://github.com/astarinamaulida/tweeter/raw/master/docs/tweeter-demo.gif"
@@ -177,12 +186,6 @@ export default function Project() {
         <span className="project-image">
           <a href="https://github.com/astarinamaulida/jungle-rails">
             <MediaContextProvider>
-              <Media at="sm">
-                <img
-                  src="https://github.com/astarinamaulida/jungle-rails/raw/master/public/gif/order.gif?raw=true"
-                  alt=""
-                />
-              </Media>
               <Media greaterThanOrEqual="md">
                 <img
                   src="https://github.com/astarinamaulida/jungle-rails/raw/master/public/gif/order.gif?raw=true"
@@ -220,12 +223,6 @@ export default function Project() {
         <span className="project-image">
           <a href="https://github.com/astarinamaulida/tinyapp">
             <MediaContextProvider>
-              <Media at="sm">
-                <img
-                  src="https://github.com/astarinamaulida/tinyapp/raw/master/docs/my-URLs.png"
-                  alt=""
-                />
-              </Media>
               <Media greaterThanOrEqual="md">
                 <img
                   src="https://github.com/astarinamaulida/tinyapp/raw/master/docs/my-URLs.png"
@@ -259,12 +256,6 @@ export default function Project() {
         <span className="project-image">
           <a href="https://hijabtale.com">
             <MediaContextProvider>
-              <Media at="sm">
-                <img
-                  src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/HIJABTALE.gif?raw=true"
-                  alt=""
-                />
-              </Media>
               <Media greaterThanOrEqual="md">
                 <img
                   src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/HIJABTALE.gif?raw=true"
@@ -290,21 +281,18 @@ export default function Project() {
             ></img>
           </a>
         </span>
-        </div>
+      </div>
 
-        <div className="project-frame">
+      <div className="project-frame">
         <div className="project-header">
           <h2 className="projects-title">APP PROTOTYPE</h2>
         </div>
         <span className="project-image">
           <a href="https://www.figma.com/file/LkfKmik1daxPvro2vLtDSf/Prototyping-in-Figma?node-id=0%3A1">
             <MediaContextProvider>
-              <Media at="sm">
-                <img
-                  src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/figma-cravings1.png?raw=true"
-                  alt=""
-                />
-                </Media>
+              <Media greaterThanOrEqual="md">
+                <img src="../figma-mlops.png" alt="" />
+              </Media>
               <Media greaterThanOrEqual="md">
                 <img
                   src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/figma-cravings1.png?raw=true"
@@ -313,12 +301,6 @@ export default function Project() {
               </Media>
             </MediaContextProvider>
             <MediaContextProvider>
-              <Media at="sm">
-                <img
-                  src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/figma-cravings2.png?raw=true"
-                  alt=""
-                />
-                </Media>
               <Media greaterThanOrEqual="md">
                 <img
                   src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/figma-cravings2.png?raw=true"
@@ -326,21 +308,21 @@ export default function Project() {
                 />
               </Media>
             </MediaContextProvider>
-
           </a>
         </span>
         <h3 className="projects-stack">Platform</h3>
         <p>Figma</p>
         <h3 className="projects-desc">Description</h3>
         <p>
-          Prototype for Cravings app using Figma and Canva for mobile and website.
+          Prototype for Cravings app using Figma and Canva for mobile and
+          website.
         </p>
         <span>
           <a href="https://www.figma.com/file/LkfKmik1daxPvro2vLtDSf/Prototyping-in-Figma?node-id=0%3A1">
             <img
               className="github-logo"
               src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/figma-logo.png?raw=true"
-            ></img>
+            />
           </a>
         </span>
       </div>

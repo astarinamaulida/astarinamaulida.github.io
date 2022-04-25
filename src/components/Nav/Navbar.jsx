@@ -49,17 +49,6 @@ export default function Navbar() {
       >
         Connect
       </LinkScroll>
-      <LinkScroll
-        className="nav-link nav-resume"
-        activeClass="active"
-        to="resume"
-        spy={true}
-        smooth={true}
-        offset={-70}
-        duration={500}
-      >
-        Resume
-      </LinkScroll>
     </nav>
   );
 }
