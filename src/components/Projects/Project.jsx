@@ -5,7 +5,6 @@ import { createMedia } from "@artsy/fresnel";
 export default function Project() {
   const { MediaContextProvider, Media } = createMedia({
     breakpoints: {
-      sm: 0,
       md: 1025,
     },
   });
@@ -18,7 +17,7 @@ export default function Project() {
           <h2 className="projects-title">MLOPS Institute</h2>
         </div>
         <span className="project-image">
-          <a href="https://github.com/astarinamaulida/paykids">
+          <a href="https://mlopsinstitute.net">
             <MediaContextProvider>
               <Media greaterThanOrEqual="md">
                 <img src="../mlops.gif" alt="" />
@@ -34,7 +33,7 @@ export default function Project() {
           gain information about MLOPS Institute and certification program.
         </p>
         <span>
-          <a href="https://github.com/astarinamaulida/paykids">
+          <a>
             <img
               className="github-logo"
               src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/github-logo.png?raw=true"
@@ -288,7 +287,7 @@ export default function Project() {
           <h2 className="projects-title">APP PROTOTYPE</h2>
         </div>
         <span className="project-image">
-          <a href="https://www.figma.com/file/LkfKmik1daxPvro2vLtDSf/Prototyping-in-Figma?node-id=0%3A1">
+          <a href="https://www.figma.com/file/6M12w0o07aTMHvLLgEfGmQ/MLOPS-Institite-Prototype">
             <MediaContextProvider>
               <Media greaterThanOrEqual="md">
                 <img src="../figma-mlops.png" alt="" />
