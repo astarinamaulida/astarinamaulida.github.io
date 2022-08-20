@@ -50,7 +50,7 @@ export default function About() {
             <RoughNotationGroup show={true}>
               <h1>
                 Hello! I am <span className="about-name">Asta, </span>a{" "}
-                <RoughNotation type="highlight" color="#fbdcfc" order="1">
+                <RoughNotation type="highlight" color="#c5e2f7" order="1">
                   software developer
                 </RoughNotation>{" "}
                 based in Canada
@@ -111,10 +111,11 @@ export default function About() {
           sx={{ marginRight: "20px" }}
           variant="contained"
           disableRipple
+          href="https://www.linkedin.com/in/astarinamaulida/"
         >
           View Linkedin
         </BootstrapButton>
-        <BootstrapButton variant="contained" disableRipple>
+        <BootstrapButton variant="contained" disableRipple href="https://github.com/astarinamaulida">
           View Github
         </BootstrapButton>
       </div>
