@@ -7,8 +7,8 @@
   align-items: center;
 }
 
-.about-name {
-  color: #cbacac;
+.aboutme {
+  color: #cfe7b4;
 }
 
 .about-role {
@@ -18,7 +18,6 @@
 
 .about-desc {
   font-size: 0.9rem;
-  display: flex;
 }
 
 h1 {
