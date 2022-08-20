@@ -7,12 +7,17 @@ nav {
 	padding-top: 70px;
 	word-spacing: 100px;
 	font-size: 1.1rem;
-  font-weight: 400;
+	font-weight: 400;
 	gap: 30px;
 	cursor: pointer;
 	height: 30px;
 }
 
 nav a:hover {
-  border-bottom: 3px solid rgb(0, 0, 0);
+	border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+.nav-link {
+	text-decoration: none;
+	color: black
 }

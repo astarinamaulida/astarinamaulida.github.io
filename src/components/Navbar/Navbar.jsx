@@ -38,7 +38,7 @@ export default function Navbar() {
       >
         Skills
       </LinkScroll>
-      <LinkScroll
+      <a
         className="nav-link nav-connect"
         activeClass="active"
         to="connect"
@@ -46,9 +46,10 @@ export default function Navbar() {
         smooth={true}
         offset={-70}
         duration={500}
+        href="https://www.linkedin.com/in/astarinamaulida/"
       >
         Connect
-      </LinkScroll>
+      </a>
     </nav>
   );
 }
