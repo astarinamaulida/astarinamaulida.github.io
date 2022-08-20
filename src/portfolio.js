@@ -1,6 +1,6 @@
 const about = {
-  name: 'Astarina Maulida',
-  role: 'A Fullstack Developer',
+  name: 'Asta',
+  role: 'a developer based in Canada.',
   description:
     'I am new in the web development world. I have been working as a Software Engineer since December 2021. I enjoy coding in stacks like React, PostgreSQL, Express, Node. I acquired some coding languages both frontend and backend like Javascript, Ruby, HTML, CSS, and currently learning new things every day from typescript, gatsby, c#, tailwindcss and planning to add React Native to my learning list. I love doing the visual creation, editing and adjustment with any image editor, like Adobe Photoshop, Canva, Adobe Illustrator also wireframe creation using Figma.',
   description2:
