@@ -25,16 +25,20 @@ h1 {
   font-size: 1.6rem;
 }
 
-.profile-pic{
+.profile-pic {
   max-width: 45%;
-  position:relative;
+  position: relative;
 }
 
-.header{
+.header {
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
-  align-items:center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-row {
+  margin-top: 20px;
 }
 
 @media (max-width: 600px) {
