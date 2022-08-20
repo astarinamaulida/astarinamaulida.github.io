@@ -1,9 +1,8 @@
 nav {
-	position: absolute;
-	background: transparent;
+	background: white;
 	padding: 1.5em 1.5em;
 	display: flex;
-	right: 300px;
+	flex-direction: row;
 	justify-content: flex-end;
 	padding-top: 70px;
 	word-spacing: 100px;
