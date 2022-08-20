@@ -1,14 +1,7 @@
 import React from "react";
 import "./Project.css";
-import { createMedia } from "@artsy/fresnel";
 
 export default function Project() {
-  const { MediaContextProvider, Media } = createMedia({
-    breakpoints: {
-      md: 1025,
-    },
-  });
-
   return (
     <section id="projects" className="section-projects">
       <h2 className="about-projects">Projects</h2>
@@ -19,11 +12,7 @@ export default function Project() {
           </div>
           <span className="project-image">
             <a href="https://mlopsinstitute.net">
-              <MediaContextProvider>
-                <Media greaterThanOrEqual="md">
-                  <img src="../mlops.gif" alt="" />
-                </Media>
-              </MediaContextProvider>
+              <img src="../mlops.gif" alt="" />
             </a>
           </span>
           <h3 className="projects-stack">Stack</h3>
@@ -49,14 +38,10 @@ export default function Project() {
           </div>
           <span className="project-image">
             <a href="https://github.com/astarinamaulida/paykids">
-              <MediaContextProvider>
-                <Media greaterThanOrEqual="md">
-                  <img
-                    src="https://github.com/astarinamaulida/paykids/blob/master/docs/01_landing_login_page.gif?raw=true"
-                    alt=""
-                  />
-                </Media>
-              </MediaContextProvider>
+              <img
+                src="https://github.com/astarinamaulida/paykids/blob/master/docs/01_landing_login_page.gif?raw=true"
+                alt=""
+              />
             </a>
           </span>
           <h3 className="projects-stack">Stack</h3>
@@ -85,11 +70,7 @@ export default function Project() {
           </div>
           <span className="project-image">
             <a href="https://github.com/astarinamaulida/cravings">
-              <MediaContextProvider>
-                <Media greaterThanOrEqual="md">
-                  <img src="https://i.ibb.co/VC3Dw9W/gif-cravings.gif" alt="" />
-                </Media>
-              </MediaContextProvider>
+              <img src="https://i.ibb.co/VC3Dw9W/gif-cravings.gif" alt="" />
             </a>
           </span>
           <h3 className="projects-stack">Stack</h3>
@@ -121,14 +102,10 @@ export default function Project() {
           </div>
           <span className="project-image">
             <a href="https://github.com/astarinamaulida/scheduler">
-              <MediaContextProvider>
-                <Media greaterThanOrEqual="md">
-                  <img
-                    src="https://github.com/astarinamaulida/scheduler/raw/master/public/GIF/scheduler_new_appointment.gif?raw=true"
-                    alt=""
-                  />
-                </Media>
-              </MediaContextProvider>
+              <img
+                src="https://github.com/astarinamaulida/scheduler/raw/master/public/GIF/scheduler_new_appointment.gif?raw=true"
+                alt=""
+              />
             </a>
           </span>
           <h3 className="projects-stack">Stack</h3>
@@ -159,14 +136,10 @@ export default function Project() {
           </div>
           <span className="project-image">
             <a href="https://github.com/astarinamaulida/tweeter">
-              <MediaContextProvider>
-                <Media greaterThanOrEqual="md">
-                  <img
-                    src="https://github.com/astarinamaulida/tweeter/raw/master/docs/tweeter-demo.gif"
-                    alt=""
-                  />
-                </Media>
-              </MediaContextProvider>
+              <img
+                src="https://github.com/astarinamaulida/tweeter/raw/master/docs/tweeter-demo.gif"
+                alt=""
+              />
             </a>
           </span>
           <h3 className="projects-stack">Stack</h3>
@@ -193,14 +166,10 @@ export default function Project() {
           </div>
           <span className="project-image">
             <a href="https://github.com/astarinamaulida/jungle-rails">
-              <MediaContextProvider>
-                <Media greaterThanOrEqual="md">
-                  <img
-                    src="https://github.com/astarinamaulida/jungle-rails/raw/master/public/gif/order.gif?raw=true"
-                    alt=""
-                  />
-                </Media>
-              </MediaContextProvider>
+              <img
+                src="https://github.com/astarinamaulida/jungle-rails/raw/master/public/gif/order.gif?raw=true"
+                alt=""
+              />
             </a>
           </span>
           <h3 className="projects-stack">Stack</h3>
@@ -232,14 +201,10 @@ export default function Project() {
           </div>
           <span className="project-image">
             <a href="https://github.com/astarinamaulida/tinyapp">
-              <MediaContextProvider>
-                <Media greaterThanOrEqual="md">
-                  <img
-                    src="https://github.com/astarinamaulida/tinyapp/raw/master/docs/my-URLs.png"
-                    alt=""
-                  />
-                </Media>
-              </MediaContextProvider>
+              <img
+                src="https://github.com/astarinamaulida/tinyapp/raw/master/docs/my-URLs.png"
+                alt=""
+              />
             </a>
           </span>
           <h3 className="projects-stack">Stack</h3>
@@ -265,14 +230,10 @@ export default function Project() {
           </div>
           <span className="project-image">
             <a href="https://hijabtale.com">
-              <MediaContextProvider>
-                <Media greaterThanOrEqual="md">
-                  <img
-                    src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/HIJABTALE.gif?raw=true"
-                    alt=""
-                  />
-                </Media>
-              </MediaContextProvider>
+              <img
+                src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/HIJABTALE.gif?raw=true"
+                alt=""
+              />
             </a>
           </span>
           <h3 className="projects-stack">Platform</h3>
@@ -300,25 +261,15 @@ export default function Project() {
         </div>
         <span className="project-image">
           <a href="https://www.figma.com/file/6M12w0o07aTMHvLLgEfGmQ/MLOPS-Institite-Prototype">
-            <MediaContextProvider>
-              <Media greaterThanOrEqual="md">
-                <img src="../figma-mlops.png" alt="" />
-              </Media>
-              <Media greaterThanOrEqual="md">
-                <img
-                  src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/figma-cravings1.png?raw=true"
-                  alt=""
-                />
-              </Media>
-            </MediaContextProvider>
-            <MediaContextProvider>
-              <Media greaterThanOrEqual="md">
-                <img
-                  src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/figma-cravings2.png?raw=true"
-                  alt=""
-                />
-              </Media>
-            </MediaContextProvider>
+            <img src="../figma-mlops.png" alt="" />
+            <img
+              src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/figma-cravings1.png?raw=true"
+              alt=""
+            />
+            <img
+              src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/figma-cravings2.png?raw=true"
+              alt=""
+            />
           </a>
         </span>
         <h3 className="projects-stack">Platform</h3>
