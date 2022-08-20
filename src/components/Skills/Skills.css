@@ -1,19 +1,9 @@
-.skills{
-  margin-top: 1.2em;
-  font-size: 2rem;
-  color: #cbacac;
-  font-weight: 600;
-  margin-top: 1.5em;
-}
-
 .skills-frame{
-  margin: 40px;
-  box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
-  padding: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 150px;
   gap: 30px;
-  width: 47vw;
+  font-size: 0.9rem;
 }

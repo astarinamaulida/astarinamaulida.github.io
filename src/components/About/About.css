@@ -39,6 +39,7 @@ h1 {
 
 .button-row {
   margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 @media (max-width: 600px) {

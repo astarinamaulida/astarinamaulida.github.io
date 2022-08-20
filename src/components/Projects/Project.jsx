@@ -4,7 +4,7 @@ import "./Project.css";
 export default function Project() {
   return (
     <section id="projects" className="section-projects">
-      <h2 className="about-projects">Projects</h2>
+      <h2 className="about-title">Projects</h2>
       <div className="row">
         <div className="project-frame">
           <div className="project-header">
@@ -273,9 +273,9 @@ export default function Project() {
           </a>
         </span>
         <h3 className="projects-stack">Platform</h3>
-        <p>Figma</p>
+        <p className="desc">Figma</p>
         <h3 className="projects-desc">Description</h3>
-        <p>
+        <p className="desc">
           Prototype for Cravings app using Figma and Canva for mobile and
           website.
         </p>
