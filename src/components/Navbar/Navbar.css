@@ -10,42 +10,9 @@ nav {
   font-weight: 400;
 	gap: 30px;
 	cursor: pointer;
+	height: 30px;
 }
 
-.nav-link:hover {
-  opacity: 1;
-	color: #353535;
-}
-
-.nav-link::before {
-  transition: 300ms;
-  height: 5px;
-  content: "";
-  position: absolute;
-  background-color: #353535;
-}
-
-.nav-about::before, .nav-projects::before, .nav-skills::before, .nav-connect::before, .nav-resume::before {
-  width: 0%;
-  bottom: 20px;
-}
-
-.nav-about:hover::before {
-  width: 11.5%;
-}
-
-.nav-projects:hover::before, .nav-connect:hover::before {
-  width: 15.5%;
-}
-
-.nav-skills:hover::before {
-  width: 10.5%;
-}
-
-.nav-connect:hover::before {
-	width: 16.5%
-}
-
-.nav-resume:hover::before {
-	width: 15.5%
+nav a:hover {
+  border-bottom: 3px solid rgb(0, 0, 0);
 }
