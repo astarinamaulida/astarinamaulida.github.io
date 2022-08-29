@@ -1,4 +1,5 @@
 import React from "react";
+import Carousel from "react-material-ui-carousel";
 import "./Project.css";
 
 export default function Project() {
@@ -12,7 +13,7 @@ export default function Project() {
           </div>
           <span className="project-image">
             <a href="https://mlopsinstitute.net">
-              <img src="../mlops.gif" alt="" />
+              <img src="../mlops.gif" alt="mlops institute gif" />
             </a>
           </span>
           <h3 className="projects-stack">Stack</h3>
@@ -23,8 +24,9 @@ export default function Project() {
             to gain information about MLOPS Institute and certification program.
           </p>
           <span>
-            <a>
+            <a href="https://mlopsinstitute.org/">
               <img
+                alt="github logo"
                 className="github-logo"
                 src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/github-logo.png?raw=true"
               ></img>
@@ -39,8 +41,8 @@ export default function Project() {
           <span className="project-image">
             <a href="https://github.com/astarinamaulida/paykids">
               <img
+                alt="paykids gif"
                 src="https://github.com/astarinamaulida/paykids/blob/master/docs/01_landing_login_page.gif?raw=true"
-                alt=""
               />
             </a>
           </span>
@@ -57,6 +59,7 @@ export default function Project() {
           <span>
             <a href="https://github.com/astarinamaulida/paykids">
               <img
+                alt="github logo"
                 className="github-logo"
                 src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/github-logo.png?raw=true"
               ></img>
@@ -87,6 +90,7 @@ export default function Project() {
           <span>
             <a href="https://github.com/astarinamaulida/cravings">
               <img
+                alt="github logo"
                 className="github-logo"
                 src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/github-logo.png?raw=true"
               ></img>
@@ -104,7 +108,7 @@ export default function Project() {
             <a href="https://github.com/astarinamaulida/scheduler">
               <img
                 src="https://github.com/astarinamaulida/scheduler/raw/master/public/GIF/scheduler_new_appointment.gif?raw=true"
-                alt=""
+                alt="scheduler gif"
               />
             </a>
           </span>
@@ -123,6 +127,7 @@ export default function Project() {
           <span>
             <a href="https://github.com/astarinamaulida/scheduler">
               <img
+                alt="github logo"
                 className="github-logo"
                 src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/github-logo.png?raw=true"
               ></img>
@@ -138,7 +143,7 @@ export default function Project() {
             <a href="https://github.com/astarinamaulida/tweeter">
               <img
                 src="https://github.com/astarinamaulida/tweeter/raw/master/docs/tweeter-demo.gif"
-                alt=""
+                alt="tweeter gif"
               />
             </a>
           </span>
@@ -153,6 +158,7 @@ export default function Project() {
           <span>
             <a href="https://github.com/astarinamaulida/tweeter">
               <img
+                alt="github logo"
                 className="github-logo"
                 src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/github-logo.png?raw=true"
               ></img>
@@ -168,7 +174,7 @@ export default function Project() {
             <a href="https://github.com/astarinamaulida/jungle-rails">
               <img
                 src="https://github.com/astarinamaulida/jungle-rails/raw/master/public/gif/order.gif?raw=true"
-                alt=""
+                alt="jungle rails gif"
               />
             </a>
           </span>
@@ -186,6 +192,7 @@ export default function Project() {
           <span>
             <a href="https://github.com/astarinamaulida/jungle-rails">
               <img
+                alt="github logo"
                 className="github-logo"
                 src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/github-logo.png?raw=true"
               ></img>
@@ -203,7 +210,7 @@ export default function Project() {
             <a href="https://github.com/astarinamaulida/tinyapp">
               <img
                 src="https://github.com/astarinamaulida/tinyapp/raw/master/docs/my-URLs.png"
-                alt=""
+                alt="tinyapp gif"
               />
             </a>
           </span>
@@ -217,6 +224,7 @@ export default function Project() {
           <span>
             <a href="https://github.com/astarinamaulida/tinyapp">
               <img
+                alt="github logo"
                 className="github-logo"
                 src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/github-logo.png?raw=true"
               ></img>
@@ -232,7 +240,7 @@ export default function Project() {
             <a href="https://hijabtale.com">
               <img
                 src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/HIJABTALE.gif?raw=true"
-                alt=""
+                alt="hijabtale gif"
               />
             </a>
           </span>
@@ -247,6 +255,7 @@ export default function Project() {
           <span>
             <a href="https://hijabtale.com">
               <img
+                alt="github logo"
                 className="github-logo"
                 src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/github-logo.png?raw=true"
               ></img>
@@ -264,11 +273,11 @@ export default function Project() {
             <img src="../figma-mlops.png" alt="" />
             <img
               src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/figma-cravings1.png?raw=true"
-              alt=""
+              alt="figma cravings"
             />
             <img
               src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/figma-cravings2.png?raw=true"
-              alt=""
+              alt="figma cravings"
             />
           </a>
         </span>
@@ -282,6 +291,7 @@ export default function Project() {
         <span>
           <a href="https://www.figma.com/file/LkfKmik1daxPvro2vLtDSf/Prototyping-in-Figma?node-id=0%3A1">
             <img
+              alt="github logo"
               className="github-logo"
               src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/figma-logo.png?raw=true"
             />
