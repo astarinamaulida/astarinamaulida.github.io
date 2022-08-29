@@ -50,18 +50,18 @@ export default function About() {
             <RoughNotationGroup show={true}>
               <h1>
                 Hello! I am <span className="about-name">Asta, </span>a{" "}
-                <RoughNotation type="highlight" color="#c5e2f7" order="1" multiline="true" animationDelay="2" >
+                <RoughNotation type="highlight" color="#c5e2f7" order="1" multiline={true} animationDelay="2" >
                   software developer
                 </RoughNotation>{" "}
                 based in Canada
               </h1>
               <p className="about-desc">
                 I enjoy coding in stacks like{" "}
-                <RoughNotation type="highlight" color="#fdf6a2" order="2" multiline="true">
+                <RoughNotation type="highlight" color="#fdf6a2" order="2" multiline={true}>
                   React, PostgreSQL, Express, Node.
                 </RoughNotation>{" "}
                 I acquired some coding languages both frontend and backend like{" "}
-                <RoughNotation type="highlight" color="#fcdcf3" order="3" multiline="true">
+                <RoughNotation type="highlight" brackets="right" color="#fcdcf3" order="3" multiline={true}>
                   Javascript, Ruby, HTML, CSS
                 </RoughNotation>{" "}
                 and currently learning new things every day from typescript,
@@ -72,16 +72,16 @@ export default function About() {
               </p>
               <p className="about-desc">
                 I have unique perspectives as I have{" "}
-                <RoughNotation type="highlight" color="#fbdcfc" order="5" multiline="true">
+                <RoughNotation type="highlight" color="#fbdcfc" order="5" multiline={true}>
                   web development
                 </RoughNotation>{" "}
                 skills strengthened by my bachelor's in{" "}
-                <RoughNotation type="highlight" color="#c5e2f7" order="6" multiline="true">
+                <RoughNotation type="highlight" color="#c5e2f7" order="6" multiline={true}>
                   business management
                 </RoughNotation>{" "}
                 with finance, which provides logic and business acumen. I
                 enhanced my visual and artistic design from a{" "}
-                <RoughNotation type="highlight" color="#fdf6a2" order="7" multiline="true">
+                <RoughNotation type="highlight" color="#fdf6a2" order="7" multiline={true}>
                   fashion design
                 </RoughNotation>{" "}
                 diploma from Milan where I learned a lot about colour palette
