@@ -64,7 +64,7 @@ export default function About() {
                 </RoughNotation>{" "}
                 based in Canada
               </h1>
-              <p className="about-desc">
+              <span className="about-desc">
                 I enjoy coding in stacks like{" "}
                 <RoughNotation
                   type="highlight"
@@ -96,8 +96,8 @@ export default function About() {
                 learning list. I love doing the visual creation, editing and
                 adjustment with any image editor, like Adobe Photoshop, Canva,
                 Adobe Illustrator and Figma.
-              </p>
-              <p className="about-desc">
+              </span>
+              <span className="about-desc">
                 I have unique perspectives as I have{" "}
                 <RoughNotation
                   type="highlight"
@@ -140,18 +140,18 @@ export default function About() {
                 </RoughNotation>{" "}
                 diploma from Milan where I learned a lot about colour palette
                 trends, proportions, product designs and more.
-              </p>
-              <p className="about-desc">
+              </span>
+              </RoughNotationGroup>
+              <span className="about-desc">
                 Apart from coding, I love books and enjoy my weekly library
                 visit. I also love to travel and learn new languages, halo!
                 ciao! bonjour! hola! kia ora! privet! salaam! anyeong haseyo! ni
                 hao! konnichiwa! hello! hallo! namaste! Do not hesitate to reach
                 me to have a chit chat in different languages, I love it! ❤️😊
-              </p>
-              <p className="about-desc">
+              </span>
+              <span className="about-desc">
                 Thanks for visiting my portfolio website, I hope you enjoy it!
-              </p>
-            </RoughNotationGroup>
+              </span>
           </div>
           <img
             className="profile-pic"
