@@ -51,7 +51,7 @@ export default function About() {
               <h1>
                 Hello! I am <span className="about-name">Asta, </span>a{" "}
                 <RoughNotation
-                  type="circle"
+                  type="highlight"
                   color="#c5e2f7"
                   order={1}
                   multiline={true}
@@ -67,7 +67,7 @@ export default function About() {
               <span className="about-desc">
                 I enjoy coding in stacks like{" "}
                 <RoughNotation
-                  type="underline"
+                  type="highlight"
                   color="#fdf6a2"
                   order={2}
                   multiline={true}
@@ -78,7 +78,7 @@ export default function About() {
                 </RoughNotation>{" "}
                 I acquired some coding languages both frontend and backend like{" "}
                 <RoughNotation
-                  type="underline"
+                  type="highlight"
                   color="#fcdcf3"
                   order={3}
                   multiline={true}
@@ -97,7 +97,7 @@ export default function About() {
               <span className="about-desc">
                 I have unique perspectives as I have{" "}
                 <RoughNotation
-                  type="underline"
+                  type="highlight"
                   color="#fbdcfc"
                   order={4}
                   multiline={true}
@@ -108,7 +108,7 @@ export default function About() {
                 </RoughNotation>{" "}
                 skills strengthened by my bachelor's in{" "}
                 <RoughNotation
-                  type="underline"
+                  type="highlight"
                   color="#c5e2f7"
                   order={5}
                   multiline={true}
@@ -120,8 +120,8 @@ export default function About() {
                 with finance, which provides logic and business acumen. I
                 enhanced my visual and artistic design from a{" "}
                 <RoughNotation
-                  type="underline"
-                  color="#e0d6ff"
+                  type="highlight"
+                  color="#fdf6a2"
                   order={6}
                   multiline={true}
                   padding={[0, 2]}
