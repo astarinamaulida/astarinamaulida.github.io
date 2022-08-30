@@ -53,11 +53,9 @@ export default function About() {
                 <RoughNotation
                   type="highlight"
                   color="#c5e2f7"
-                  order={1}
                   multiline={true}
                   padding={[10,10]}
-                  iterations={0}
-                  animationDelay={500}
+                  animationDelay={1000}
                   strokeWidth={4}
                 >
                   software developer
@@ -69,9 +67,9 @@ export default function About() {
                 <RoughNotation
                   type="highlight"
                   color="#fdf6a2"
-                  order={2}
                   multiline={true}
                   padding={[0, 2]}
+                  animationDelay={1500}
                   strokeWidth={4}
                 >
                   React, PostgreSQL, Express, Node.
@@ -80,10 +78,9 @@ export default function About() {
                 <RoughNotation
                   type="highlight"
                   color="#fcdcf3"
-                  order={3}
                   multiline={true}
                   padding={[0, 2]}
-                  iterations={0}
+                  animationDelay={2000}
                   strokeWidth={4}
                 >
                   Javascript, Ruby, HTML, CSS
@@ -99,9 +96,9 @@ export default function About() {
                 <RoughNotation
                   type="highlight"
                   color="#fbdcfc"
-                  order={4}
                   multiline={true}
                   padding={[0, 2]}
+                  animationDelay={2500}
                   strokeWidth={4}
                 >
                   web development
@@ -110,9 +107,9 @@ export default function About() {
                 <RoughNotation
                   type="highlight"
                   color="#c5e2f7"
-                  order={5}
                   multiline={true}
                   padding={[0, 2]}
+                  animationDelay={3000}
                   strokeWidth={5}
                 >
                   business management
@@ -122,9 +119,9 @@ export default function About() {
                 <RoughNotation
                   type="highlight"
                   color="#fdf6a2"
-                  order={6}
                   multiline={true}
                   padding={[0, 2]}
+                  animationDelay={3500}
                   strokeWidth={5}
                 >
                   fashion design
