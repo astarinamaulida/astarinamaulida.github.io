@@ -51,14 +51,14 @@ export default function About() {
               <h1>
                 Hello! I am <span className="about-name">Asta, </span>a{" "}
                 <RoughNotation
-                  type="highlight"
+                  type="circle"
                   color="#c5e2f7"
                   order={1}
                   multiline={true}
-                  padding={[0, 2]}
+                  padding={[10,10]}
                   iterations={0}
-                  animationDuration={700}
-                  strokeWidth={2}
+                  animationDelay={500}
+                  strokeWidth={4}
                 >
                   software developer
                 </RoughNotation>{" "}
@@ -67,27 +67,24 @@ export default function About() {
               <span className="about-desc">
                 I enjoy coding in stacks like{" "}
                 <RoughNotation
-                  type="highlight"
+                  type="underline"
                   color="#fdf6a2"
                   order={2}
                   multiline={true}
                   padding={[0, 2]}
-                  iterations={0}
-                  animationDuration={700}
-                  strokeWidth={2}
+                  strokeWidth={4}
                 >
                   React, PostgreSQL, Express, Node.
                 </RoughNotation>{" "}
                 I acquired some coding languages both frontend and backend like{" "}
                 <RoughNotation
-                  type="highlight"
+                  type="underline"
                   color="#fcdcf3"
                   order={3}
                   multiline={true}
                   padding={[0, 2]}
                   iterations={0}
-                  animationDuration={700}
-                  strokeWidth={2}
+                  strokeWidth={4}
                 >
                   Javascript, Ruby, HTML, CSS
                 </RoughNotation>{" "}
@@ -100,41 +97,35 @@ export default function About() {
               <span className="about-desc">
                 I have unique perspectives as I have{" "}
                 <RoughNotation
-                  type="highlight"
+                  type="underline"
                   color="#fbdcfc"
                   order={4}
                   multiline={true}
                   padding={[0, 2]}
-                  iterations={0}
-                  animationDuration={700}
-                  strokeWidth={2}
+                  strokeWidth={4}
                 >
                   web development
                 </RoughNotation>{" "}
                 skills strengthened by my bachelor's in{" "}
                 <RoughNotation
-                  type="highlight"
+                  type="underline"
                   color="#c5e2f7"
                   order={5}
                   multiline={true}
                   padding={[0, 2]}
-                  iterations={0}
-                  animationDuration={700}
-                  strokeWidth={2}
+                  strokeWidth={5}
                 >
                   business management
                 </RoughNotation>{" "}
                 with finance, which provides logic and business acumen. I
                 enhanced my visual and artistic design from a{" "}
                 <RoughNotation
-                  type="highlight"
-                  color="#fdf6a2"
+                  type="underline"
+                  color="#e0d6ff"
                   order={6}
                   multiline={true}
                   padding={[0, 2]}
-                  iterations={0}
-                  animationDuration={700}
-                  strokeWidth={2}
+                  strokeWidth={5}
                 >
                   fashion design
                 </RoughNotation>{" "}
