@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Skills from "./components/Skills/Skills";
 import "./App.css";
+import Wireframe from "./components/Wireframe/Wireframe";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Navbar />
         <About />
         <Project />
+        <Wireframe />
         <Skills />
         <Footer />
       </div>
