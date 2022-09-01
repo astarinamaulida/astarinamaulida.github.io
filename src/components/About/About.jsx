@@ -74,7 +74,7 @@ export default function About() {
                 >
                   React, PostgreSQL, Express, Node.
                 </RoughNotation>{" "}
-                I acquired some coding languages both frontend and backend like{" "}
+                I acquired some coding languages both frontend and backend like
                 <RoughNotation
                   type="highlight"
                   color="#fcdcf3"
