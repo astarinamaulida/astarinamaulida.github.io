@@ -28,6 +28,17 @@ export default function Navbar() {
         Projects
       </LinkScroll>
       <LinkScroll
+        className="nav-link nav-wireframes"
+        activeClass="active"
+        to="wireframes"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+      >
+        Wireframes
+      </LinkScroll>
+      <LinkScroll
         className="nav-link nav-skills"
         activeClass="active"
         to="skills"
