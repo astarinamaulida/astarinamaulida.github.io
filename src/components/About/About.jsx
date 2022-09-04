@@ -49,12 +49,23 @@ export default function About() {
           <div>
             <RoughNotationGroup show={true}>
               <h1>
-                Hello! I am <span className="about-name">Asta, </span>a{" "}
+                Hello! I am{" "}
+                <span className="about-name">
+                  <RoughNotation
+                    type="underline"
+                    color="#fcdcf3"
+                    multiline={true}
+                    animationDelay={1000}
+                    strokeWidth={4}
+                  >
+                    Asta,
+                  </RoughNotation>{" "}
+                </span>
+                a{" "}
                 <RoughNotation
-                  type="highlight"
-                  color="#c5e2f7"
+                  type="underline"
+                  color="#fdf6a2"
                   multiline={true}
-                  padding={[10,10]}
                   animationDelay={1000}
                   strokeWidth={4}
                 >
@@ -129,17 +140,17 @@ export default function About() {
                 diploma from Milan where I learned a lot about colour palette
                 trends, proportions, product designs and more.
               </span>
-              </RoughNotationGroup>
-              <span className="about-desc">
-                Apart from coding, I love books and enjoy my weekly library
-                visit. I also love to travel and learn new languages, halo!
-                ciao! bonjour! hola! kia ora! privet! salaam! anyeong haseyo! ni
-                hao! konnichiwa! hello! hallo! namaste! Do not hesitate to reach
-                me to have a chit chat in different languages, I love it! ❤️😊
-              </span>
-              <span className="about-desc">
-                Thanks for visiting my portfolio website, I hope you enjoy it!
-              </span>
+            </RoughNotationGroup>
+            <span className="about-desc">
+              Apart from coding, I love books and enjoy my weekly library visit.
+              I also love to travel and learn new languages, halo! ciao!
+              bonjour! hola! kia ora! privet! salaam! anyeong haseyo! ni hao!
+              konnichiwa! hello! hallo! namaste! Do not hesitate to reach me to
+              have a chit chat in different languages, I love it! ❤️😊
+            </span>
+            <span className="about-desc">
+              Thanks for visiting my portfolio website, I hope you enjoy it!
+            </span>
           </div>
           <img
             className="profile-pic"
