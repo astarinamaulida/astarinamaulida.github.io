@@ -170,6 +170,7 @@ export default function About() {
         </BootstrapButton>
         <BootstrapButton
           variant="contained"
+          style={{ marginTop: "10px" }}
           disableRipple
           href="https://github.com/astarinamaulida"
         >
