@@ -51,4 +51,8 @@ h1 {
     flex-direction: column;
     align-items: flex-start;
   }
+
+  .button-row {
+    gap: 10px;
+  }
 }

@@ -135,7 +135,7 @@ export default function About() {
                   animationDelay={3500}
                   strokeWidth={5}
                 >
-                  fashion design
+                  design
                 </RoughNotation>{" "}
                 diploma from Milan where I learned a lot about colour palette
                 trends, proportions, product designs and more.
@@ -170,7 +170,6 @@ export default function About() {
         </BootstrapButton>
         <BootstrapButton
           variant="contained"
-          style={{ marginTop: "10px" }}
           disableRipple
           href="https://github.com/astarinamaulida"
         >
