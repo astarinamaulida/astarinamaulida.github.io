@@ -18,7 +18,12 @@
 }
 
 .projects-title {
-  font-size: 1.1rem;
+  font-family: "classica-pro", serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1;
+  color: #19191A;
+  margin-bottom: 24px;
 }
 
 .projects-stack, .projects-desc {
@@ -48,7 +53,11 @@ img {
 }
 
 .desc {
-  font-size: 0.8rem;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #19191A;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 600px) {

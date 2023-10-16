@@ -4,6 +4,7 @@ import "./Navbar.css";
 
 export default function Navbar() {
   return (
+    <div className="main-container">
     <nav className="nav-wrapper">
       <div className="name">ASTARINA MAULIDA</div>
       <div className="nav">
@@ -65,5 +66,6 @@ export default function Navbar() {
         </a>
       </div>
     </nav>
+    </div>
   );
 }

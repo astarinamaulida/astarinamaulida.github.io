@@ -5,6 +5,7 @@ import "./Project.css";
 export default function Project() {
   return (
     <section id="projects" className="section-projects">
+      <div className="main-container">
       <h2 className="about-title">Projects</h2>
       <Carousel
         autoPlay={true}
@@ -275,6 +276,7 @@ export default function Project() {
           </div>
         </div>
       </Carousel>
+      </div>
     </section>
   );
 }
