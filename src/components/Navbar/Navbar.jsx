@@ -17,7 +17,18 @@ export default function Navbar() {
           offset={-70}
           duration={500}
         >
-          About
+          Home
+        </LinkScroll>
+        <LinkScroll
+          className="nav-link nav-about"
+          activeClass="active"
+          to="about"
+          spy="true"
+          smooth="true"
+          offset={-70}
+          duration={500}
+        >
+          Work
         </LinkScroll>
         <LinkScroll
           className="nav-link nav-projects"
@@ -28,42 +39,8 @@ export default function Navbar() {
           offset={-70}
           duration={500}
         >
-          Projects
+          About
         </LinkScroll>
-        <LinkScroll
-          className="nav-link nav-wireframes"
-          activeClass="active"
-          to="wireframes"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
-        >
-          Wireframes
-        </LinkScroll>
-        <LinkScroll
-          className="nav-link nav-skills"
-          activeClass="active"
-          to="skills"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
-        >
-          Skills
-        </LinkScroll>
-        <a
-          className="nav-link nav-connect"
-          activeClass="active"
-          to="connect"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
-          href="https://www.linkedin.com/in/astarinamaulida/"
-        >
-          Connect
-        </a>
       </div>
     </nav>
     </div>
