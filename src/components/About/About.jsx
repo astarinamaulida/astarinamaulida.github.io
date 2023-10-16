@@ -46,10 +46,9 @@ export default function About() {
   return (
     <div className="main-container">
       <div className="about">
-        <h1 className="title">Howdy!</h1>
+        <h1 className="title">HELLO</h1>
         <div className="about-desc">
-          I am Asta, a UX developer and designer who loves to design and build
-          clean and aesthetic products that solve users' problems.
+          I'm Asta, a UX developer and designer 
         </div>
         <div className="button-row">
           <BootstrapButton
