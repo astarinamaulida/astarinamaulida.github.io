@@ -57,14 +57,14 @@ export default function About() {
             disableRipple
             href="https://www.linkedin.com/in/astarinamaulida/"
           >
-            View Linkedin
+          LinkedIn
           </BootstrapButton>
           <BootstrapButton
             variant="contained"
             disableRipple
             href="https://github.com/astarinamaulida"
           >
-            View Github
+            Github
           </BootstrapButton>
         </div>
       </div>
