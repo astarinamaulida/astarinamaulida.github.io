@@ -1,8 +1,8 @@
 import React from "react";
 import About from "./components/About/About";
-import Project from "./components/Projects/Project";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
+import Homepage from "./components/Homepage/Homepage";
 import "./App.css";
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       <div className="App">
         <Navbar />
         <About />
-        <Project />
+        <Homepage />
         <Footer />
       </div>
     </React.Fragment>

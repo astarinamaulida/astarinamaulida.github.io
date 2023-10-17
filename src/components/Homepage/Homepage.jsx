@@ -1,12 +1,10 @@
 import React from "react";
-import Carousel from "react-material-ui-carousel";
-import "./Project.css";
+import "./Homepage.css";
 
-export default function Project() {
+export default function Homepage() {
   return (
     <section id="projects" className="section-projects">
       <div className="main-container">
-        <div></div>
         <h1 className="title">WORK</h1>
         <div className="row">
           <div className="project-frame">
