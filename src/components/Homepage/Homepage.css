@@ -11,11 +11,6 @@ h1 {
   font-weight: 500;
 }
 
-.profile-pic {
-  max-width: 45%;
-  position: relative;
-}
-
 .header {
   display: flex;
   flex-direction: row;

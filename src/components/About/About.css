@@ -1,0 +1,31 @@
+.about-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+}
+
+.about-desc {
+  font-size: 14px;
+  width: 100%;
+  line-height: 20px;
+  justify-content: center;
+}
+
+.desc-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 100%;
+}
+
+.profile-pic-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.profile-pic {
+  max-width: 75%;
+  position: relative;
+}
+
