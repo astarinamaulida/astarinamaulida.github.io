@@ -47,7 +47,8 @@ export default function About() {
       <div className="about">
         <h1 className="title">HELLO</h1>
         <div className="big-title">
-          I'm Asta, a UX developer and designer 
+        I'm Asta, a seasoned UX developer and designer with a diverse background spanning business, design, and web development.
+        <br/>I enjoy making user-friendly solutions with clean, practical designs.
         </div>
         <div className="button-row">
           <BootstrapButton

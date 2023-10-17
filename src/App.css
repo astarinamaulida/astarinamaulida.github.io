@@ -16,20 +16,20 @@
 }
 
 .big-title {
-  font-size: 60px;
-  line-height: 80px;
+  font-size: 20px;
+  line-height: 40px;
   color: #22272c;
   margin-top: 100px;
   margin-bottom: 100px;
-  font-family: 'Italiana', sans-serif;
+  width: 60%;
 }
 
 .project-title {
-  font-size: 60px;
+  font-size: 45px;
   line-height: 80px;
   color: #22272c;
   margin: 0;
-  font-family: 'Italiana', sans-serif;
+  font-family: 'DM Serif Display', serif;
 }
 
 .main-container {
