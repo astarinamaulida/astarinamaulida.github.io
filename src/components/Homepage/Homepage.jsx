@@ -37,7 +37,7 @@ export default function Homepage() {
                 <p className="project-year">
                   2020-2021 - Shopify Design & Developer
                 </p>
-                <h1 className="project-title">HIJABTALE</h1>
+                <h1 className="project-title">Hijabtale</h1>
               </div>
               <p className="projects-stack">Online Shop</p>
               <p className="desc">
