@@ -47,7 +47,7 @@ export default function About() {
     <div className="main-container">
       <div className="about">
         <h1 className="title">HELLO</h1>
-        <div className="about-desc">
+        <div className="big-title">
           I'm Asta, a UX developer and designer 
         </div>
         <div className="button-row">

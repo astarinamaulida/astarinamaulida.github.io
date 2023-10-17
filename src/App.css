@@ -15,6 +15,23 @@
   padding-top: 50px;
 }
 
+.big-title {
+  font-size: 60px;
+  line-height: 80px;
+  color: #22272c;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-family: 'Italiana', sans-serif;
+}
+
+.project-title {
+  font-size: 60px;
+  line-height: 80px;
+  color: #22272c;
+  margin: 0;
+  font-family: 'Italiana', sans-serif;
+}
+
 .main-container {
   max-width: 1160px;
   margin: 0 auto;

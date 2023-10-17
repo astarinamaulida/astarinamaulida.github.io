@@ -15,27 +15,16 @@ export default function Project() {
                 <img src="work1.png" alt="hijabtale gif" />
               </a>
             </span>
-            <div>
-            <div className="project-header">
-              <h2 className="projects-title">HIJABTALE</h2>
-            </div>
-            <h3 className="projects-stack">Platform</h3>
-            <p className="desc">Shopify</p>
-            <h3 className="projects-desc">Description</h3>
-            <p className="desc">
-              HIJABTALE is Canada hijab's online store which established and
-              designed using Shopify platform. The UX UI follows the brand
-              identity and target market.
-            </p>
-            <span>
-              <a href="https://hijabtale.com">
-                <img
-                  alt="github logo"
-                  className="github-logo"
-                  src="https://github.com/astarinamaulida/astarinamaulida.github.io/blob/master/public/github-logo.png?raw=true"
-                ></img>
-              </a>
-            </span>
+            <div className="desc-frame">
+              <div className="project-header">
+                <p className="project-year">2021-2023 - UX Developer</p>
+                <h1 className="project-title">L'Oréal</h1>
+              </div>
+              <p className="projects-stack">Amazon Keyword Planner</p>
+              <p className="desc">
+                A web app that provides insight of best selling and high growth
+                keywords in Amazon.
+              </p>
             </div>
           </div>
         </div>

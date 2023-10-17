@@ -18,17 +18,26 @@
   font-family: "classica-pro", serif;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1;
   color: #19191A;
-  margin-bottom: 24px;
 }
 
 .projects-stack, .projects-desc {
   font-size: 1rem;
+  color: #656565;
+  font-weight: 600;
+}
+
+.project-year {
+  font-size: 13px;
+  color: #656565;
 }
 
 .section-projects {
   background-color: #F2F3F5;
+}
+
+.desc-frame {
+  padding: 5%;
 }
 
 img {
@@ -52,10 +61,10 @@ img {
 }
 
 .desc {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 26px;
   font-weight: 400;
-  color: #19191A;
+  color: #656565;
   margin-bottom: 20px;
 }
 
