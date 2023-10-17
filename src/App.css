@@ -26,14 +26,6 @@
   width: 60%;
 }
 
-.project-title {
-  font-size: 45px;
-  line-height: 80px;
-  color: #22272c;
-  margin: 0;
-  font-family: 'DM Serif Display', serif;
-}
-
 .main-container {
   max-width: 1160px;
   margin: 0 auto;
@@ -43,6 +35,12 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
 }
 
 @media (prefers-reduced-motion: no-preference) {

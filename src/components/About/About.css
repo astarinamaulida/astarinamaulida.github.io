@@ -2,7 +2,15 @@
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
+}
+
+.about-title {
+  font-size: 45px;
+  line-height: 80px;
+  color: #22272c;
+  font-family: 'DM Serif Display', serif;
+  margin-top: 100px;
 }
 
 .about-desc {
@@ -17,6 +25,12 @@
   flex-direction: column;
   align-content: center;
   width: 100%;
+}
+
+.skillset {
+  line-height: 40px;
+  color: #b0a3a3;
+  font-weight: 600;
 }
 
 .profile-pic-container {

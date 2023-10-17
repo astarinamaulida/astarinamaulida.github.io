@@ -23,6 +23,14 @@ h1 {
   margin-bottom: 50px;
 }
 
+.project-title {
+  font-size: 45px;
+  line-height: 80px;
+  color: #22272c;
+  margin: 0;
+  font-family: 'DM Serif Display', serif;
+}
+
 @media (max-width: 600px) {
   .app .about {
     align-items: flex-start;
@@ -93,13 +101,6 @@ img {
   display: block;
   max-width: 100%;
   max-height: auto;
-}
-
-.about-title {
-  margin-top: 1.2em;
-  font-size: 1.5rem;
-  font-weight: 600;
-  margin-top: 1.5em;
 }
 
 .github-logo {
