@@ -1,3 +1,49 @@
+.about {
+  flex-direction: column;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.profile-pic {
+  max-width: 45%;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-row {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 600px) {
+  .app .about {
+    align-items: flex-start;
+    margin-top: 2em;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .button-row {
+    gap: 10px;
+  }
+}
+
 .project-image {
   flex-basis: 50%;
   flex-shrink: 0;
