@@ -6,7 +6,7 @@ export default function About() {
     <div className="main-container">
       <div className="about-container">
         <div className="desc-container">
-          <h1 className="about-title">I am Asta</h1>
+          <h1 className="about-title">I'm Asta!</h1>
           <p className="about-desc">
             I'm a fusion of two worlds: design and development. <br />I firmly
             believe that these realms complement and empower each other. ✨
@@ -37,7 +37,16 @@ export default function About() {
               Frontend Development <br />
             </p>
           </div>
-          <h1 className="about-title">Fun Facts, I am..</h1>
+        </div>
+        <div className="profile-pic-container">
+          <img
+            className="profile-pic"
+            src="./profilepic.JPG"
+            alt="My Profile Pic"
+          />
+        </div>
+      </div>
+      <h1 className="about-title">Fun Facts, I am..</h1>
           <ul className="about-desc">
             <li>An avid reader, so much so that I even read when I eat.</li>
             <li>
@@ -50,15 +59,6 @@ export default function About() {
             </li>
             <li>A dreamer and a dream chaser, forever lifelong learner ✨</li>
           </ul>
-        </div>
-        <div className="profile-pic-container">
-          <img
-            className="profile-pic"
-            src="./profilepic.JPG"
-            alt="My Profile Pic"
-          />
-        </div>
-      </div>
     </div>
   );
 }
