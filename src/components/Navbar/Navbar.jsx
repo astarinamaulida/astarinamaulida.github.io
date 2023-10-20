@@ -28,6 +28,7 @@ export default function Navbar() {
             smooth="true"
             offset={-70}
             duration={500}
+            href="/work"
           >
             Work
           </a>

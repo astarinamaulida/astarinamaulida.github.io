@@ -5,6 +5,7 @@ import Footer from "./components/Footer/Footer";
 import { Route, Routes, Link } from "react-router-dom";
 import Homepage from "./components/Homepage/Homepage";
 import "./App.css";
+import Work from "./components/Work/Work";
 
 function App() {
   return (
@@ -21,12 +22,23 @@ function App() {
               </>
             }
           />
-          <Route
+         
+         <Route
             path="/about"
             element={
               <>
                 <Navbar />
                 <About />
+                <Footer />
+              </>
+            }
+          />
+           <Route
+            path="/work"
+            element={
+              <>
+                <Navbar />
+                <Work />
                 <Footer />
               </>
             }
