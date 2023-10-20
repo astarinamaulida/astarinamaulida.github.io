@@ -44,7 +44,21 @@
 }
 
 @media (max-width: 600px) {
+  .about-container {
+flex-direction: column-reverse;
+  }
+
   .skillset {
     font-size: 14px;
+  }
+
+  .profile-pic {
+    width: 100%;
+    position: relative;
+    margin-top: 70px;
+  }
+
+  .profile-pic-container {
+    justify-content: center;
   }
 }
