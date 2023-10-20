@@ -121,9 +121,11 @@ img {
 @media (max-width: 600px) {
   .row {
     gap: 300px;
+    
   }
 
   .project-frame {
     height: 100%;
+    flex-direction: column;
   }
 }

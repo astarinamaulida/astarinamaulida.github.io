@@ -42,3 +42,9 @@
   max-width: 80%;
   position: relative;
 }
+
+@media (max-width: 600px) {
+  .skillset {
+    font-size: 14px;
+  }
+}

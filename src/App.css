@@ -45,9 +45,15 @@
   gap: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+@media (max-width: 600px) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+  }
+
+  .big-title {
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
 
