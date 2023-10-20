@@ -6,6 +6,9 @@ import { Route, Routes, Link } from "react-router-dom";
 import Homepage from "./components/Homepage/Homepage";
 import "./App.css";
 import Work from "./components/Work/Work";
+import Project1 from "./components/Project1/Project1";
+import Project2 from "./components/Project2/Project2";
+import Project3 from "./components/Project3/Project3";
 
 function App() {
   return (
@@ -22,8 +25,8 @@ function App() {
               </>
             }
           />
-         
-         <Route
+
+          <Route
             path="/about"
             element={
               <>
@@ -33,12 +36,42 @@ function App() {
               </>
             }
           />
-           <Route
+          <Route
             path="/work"
             element={
               <>
                 <Navbar />
                 <Work />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/loreal-project"
+            element={
+              <>
+                <Navbar />
+                <Project1 />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/pulsar-project"
+            element={
+              <>
+                <Navbar />
+                <Project2 />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/hijabtale-project"
+            element={
+              <>
+                <Navbar />
+                <Project3 />
                 <Footer />
               </>
             }
