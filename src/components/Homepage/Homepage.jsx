@@ -82,7 +82,9 @@ export default function Homepage() {
               </span>
               <div className="desc-frame">
                 <div className="project-header">
-                  <p className="project-year">2021-2023 - UX Developer</p>
+                  <p className="project-year">
+                    2021-2023 - UX designer & developer
+                  </p>
                   <h1 className="project-title">L'Oréal Canada</h1>
                 </div>
                 <p className="projects-stack">Amazon Keyword Planner</p>
@@ -94,10 +96,28 @@ export default function Homepage() {
             </div>
           </a>
 
+          <a href="/pulsar-project" style={{ textDecoration: "none" }}>
+            <div className="project-frame">
+              <span className="project-image">
+                <img src="work2.png" alt="pulsar mockup" />
+              </span>
+              <div className="desc-frame">
+                <div className="project-header">
+                  <p className="project-year">2022 - UX designer & developer</p>
+                  <h1 className="project-title">PulsarML</h1>
+                </div>
+                <p className="projects-stack">Company Website</p>
+                <p className="desc">
+                  A company website to showcase the product and services.
+                </p>
+              </div>
+            </div>
+          </a>
+
           <a href="/hijabtale-project" style={{ textDecoration: "none" }}>
             <div className="project-frame">
               <span className="project-image">
-                <img src="work2.png" alt="hijabtale gif" />
+                <img src="work3.png" alt="hijabtale gif" />
               </span>
               <div className="desc-frame">
                 <div className="project-header">

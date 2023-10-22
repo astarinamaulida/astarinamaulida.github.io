@@ -37,16 +37,6 @@ function App() {
             }
           />
           <Route
-            path="/work"
-            element={
-              <>
-                <Navbar />
-                <Work />
-                <Footer />
-              </>
-            }
-          />
-          <Route
             path="/loreal-project"
             element={
               <>
