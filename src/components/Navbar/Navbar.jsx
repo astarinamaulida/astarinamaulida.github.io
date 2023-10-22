@@ -21,18 +21,6 @@ export default function Navbar() {
             Home
           </a>
           <a
-            className="nav-link nav-about"
-            activeClass="active"
-            to="about"
-            spy="true"
-            smooth="true"
-            offset={-70}
-            duration={500}
-            href="/work"
-          >
-            Work
-          </a>
-          <a
             className="nav-link nav-projects"
             activeClass="active"
             to="projects"

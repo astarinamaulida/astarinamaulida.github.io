@@ -1,10 +1,15 @@
-.work-title {
-  font-size: 45px;
-  line-height: 80px;
-  color: #22272c;
-  font-family: 'DM Serif Display', serif;
-  min-height: 75vh;
+.project-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column;
+}
+
+.loreal-branding {
+  width: 60%;
+}
+
+.work-row {
+  display: flex;
+  justify-content: space-between;
 }
