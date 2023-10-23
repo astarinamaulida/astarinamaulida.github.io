@@ -93,6 +93,18 @@
     margin-top: 20px;
     margin-bottom: 20px;
   }
+
+  .text-container {
+    max-width: 70%;
+  }
+
+  .image-frame {
+    width: 100%;
+  }
+
+  .work-row {
+    flex-direction: column;
+  }
 }
 
 .App-header {

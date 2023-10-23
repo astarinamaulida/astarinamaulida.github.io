@@ -122,14 +122,14 @@ export default function Project2() {
       <div className="text-container">
         <h1 className="sub-title">PRODUCT SUCCESSES</h1>
         <p className="desc">
-          In just one month, the website attracted more than ten times the
-          usual number of visitors. Users appreciated the well-organized
-          information and spent 3-5 minutes per visit, significantly longer than
-          the average one-minute visit duration. The branding, logo, and colors
-          made a strong and positive impact on users. Users especially liked the
-          visual elements like gifs and pictures that helped them understand
-          what PulsarML offers. The UI of the PulsarML dashboard was in harmony
-          with the PulsarML branding. The community also thrived with over 1,000
+          In just one month, the website attracted more than ten times the usual
+          number of visitors. Users appreciated the well-organized information
+          and spent 3-5 minutes per visit, significantly longer than the average
+          one-minute visit duration. The branding, logo, and colors made a
+          strong and positive impact on users. Users especially liked the visual
+          elements like gifs and pictures that helped them understand what
+          PulsarML offers. The UI of the PulsarML dashboard was in harmony with
+          the PulsarML branding. The community also thrived with over 1,000
           followers on LinkedIn, Slack, and Discord groups.
         </p>
       </div>
