@@ -120,6 +120,14 @@ export default function Project2() {
       <img className="image-frame" src="./pulsar-logo.png" />
 
       <div className="text-container">
+        <h1 className="sub-title">OTHER DESIGNS</h1>
+        <p className="desc">
+          I followed the guidelines to other designs, and below is the example for publication design for PulsarML.
+        </p>
+      </div>
+      <img className="image-frame" src="./pulsar-product.png" />
+
+      <div className="text-container">
         <h1 className="sub-title">PRODUCT SUCCESSES</h1>
         <p className="desc">
           In just one month, the website attracted more than ten times the usual
@@ -133,6 +141,21 @@ export default function Project2() {
           followers on LinkedIn, Slack, and Discord groups.
         </p>
       </div>
+      <div className="text-container">
+        <h1 className="sub-title">WHAT I LEARNED</h1>
+        <p className="desc">
+          I had a great time working on the PulsarML website and collaborating
+          with Software Engineers (SWEs) and Machine Learning Engineers. Through
+          this experience, I improved my communication skills in meetings and
+          gained a deep understanding of PulsarML's technology and goals, which
+          helped me design the website effectively. I believe the website has
+          the potential to expand in the future, offering special pricing for
+          specific services, customer support, and documentation. However, I
+          recognize the challenge of scaling up the product and services due to
+          limited human resources.
+        </p>
+      </div>
+
       <div className="text-container">
         <h1 className="sub-title">WHAT I LEARNED</h1>
         <p className="desc">

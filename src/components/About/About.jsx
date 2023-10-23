@@ -47,18 +47,19 @@ export default function About() {
         </div>
       </div>
       <h1 className="about-title">Fun Facts, I am..</h1>
-          <ul className="about-desc">
-            <li>An avid reader, so much so that I even read when I eat.</li>
-            <li>
-              An ambivert, loving the company of people and cherishing my alone
-              time equally.
-            </li>
-            <li>
-              A romantic and positive person. I like to romanticizing things,
-              seeing the world with all its colors and butterflies.
-            </li>
-            <li>A dreamer and a dream chaser, forever lifelong learner ✨</li>
-          </ul>
+      <ul className="about-desc">
+        <li>An avid reader, so much so that I even read when I eat.</li>
+        <li>
+          An ambivert, loving the company of people and cherishing my alone time
+          equally.
+        </li>
+        <li>
+          A romantic and positive person. I like to romanticizing things, seeing
+          the world with all its colors and butterflies.
+        </li>
+        <li>A dreamer and a dream chaser, forever lifelong learner ✨</li>
+      </ul>
+     
     </div>
   );
 }

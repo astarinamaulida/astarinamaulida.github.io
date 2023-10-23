@@ -11,8 +11,8 @@ const BootstrapButton = styled(Button)({
   border: "1px solid",
   lineHeight: 1.5,
   borderRadius: 0,
-  backgroundColor: "#000000",
-  borderColor: "#000000",
+  backgroundColor: "#121212",
+  borderColor: "#121212",
   fontFamily: [
     "-apple-system",
     "BlinkMacSystemFont",
@@ -27,9 +27,9 @@ const BootstrapButton = styled(Button)({
   ].join(","),
   "&:hover": {
     backgroundColor: "#ffffff",
-    borderColor: "#000000",
+    borderColor: "#121212",
     boxShadow: "none",
-    color: "#000000",
+    color: "#121212",
   },
   "&:active": {
     boxShadow: "none",
