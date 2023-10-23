@@ -61,7 +61,7 @@ export default function Project1() {
           </div>
         </div>
       </div>
-      <img className="loreal-branding" src="./design-process.png" />
+      <img className="image-frame" src="./loreal-design-process.png" />
       <div className="text-container">
         <h1 className="sub-title">PROBLEM</h1>
         <p className="desc">
@@ -124,31 +124,33 @@ export default function Project1() {
       <div className="text-container">
         <h1 className="sub-title">INSPIRATION & MOOD BOARD</h1>
         <p className="desc">
-          I started my design process by looking at L'Oréal's colors and style.
-          To decide how my app should look, I did research and put together a
-          mood board. Since this app was for L'Oréal's internal use, I used
-          their style to make it fit better with their brand.
+          I decided to use L'Oréal's colors and font styling because I think it
+          would make the app fit better with their brand, as this app will be
+          used for internal L'Oréal marketing division. I created a mood board
+          as the app branding inspiration.
         </p>
       </div>
-      <img className="loreal-branding" src="./loreal-inspiration.png" />
+      <img className="image-frame" src="./loreal-inspiration.png" />
       <div className="text-container">
         <h1 className="sub-title">LOGO</h1>
         <p className="desc">
-          I created two logos for this project. As it was my first project with
-          L'Oréal Canada, I created the first logo for L'Oréal Data Lab. For the
-          L'Oréal Data Lab logo, I used a design with a sphere and lines to show
-          data connections. I used fonts similar to what L'Oréal uses and added
-          a maple leaf in gold colors to show it's from Canada, like L'Oréal.
+          I created two logos for this project. The first logo was specifically
+          designed for L'Oréal Data Lab, which was my debut project with L'Oréal
+          Canada. To represent the interconnected nature of data, I used a
+          design featuring a sphere with lines. For the font, I opted for styles
+          similar to L'Oréal's, and I included a gold maple leaf to signify its
+          Canadian origin, aligning with L'Oréal's brand colors.
           <br />
           <br />
-          The second logo was for the Amazon Keyword Planner app. It shows a
-          magnifying glass and a key, to tell people it's for finding keywords.
-          I used a font like what L'Oréal uses, which looks simple but also
-          techy and powerful.
+          The second logo was created for the Amazon Keyword Planner app. It
+          features a combination of a magnifying glass and a key, clearly
+          indicating its purpose for keyword searching. The font I chose
+          resembles the style used by L'Oréal, striking a balance between
+          simplicity and a tech-savvy, powerful appearance.
         </p>
       </div>
 
-      <img className="loreal-branding" src="./loreal-logo.png" />
+      <img className="image-frame" src="./loreal-logo.png" />
       <div className="text-container">
         <h1 className="sub-title">COLORS</h1>
         <p className="desc">
@@ -158,21 +160,26 @@ export default function Project1() {
           conveyed the Loreal color theme.
         </p>
       </div>
-      <img className="loreal-branding" src="./loreal-color-palette.png" />
+      <img className="image-frame" src="./loreal-color-palette.png" />
       <div className="text-container">
         <h1 className="sub-title">PRODUCT SUCCESSES</h1>
         <p className="desc">
-          The web application I created for L'Oréal Canada's Marketing team was
-          a big hit with a 10x users increase within a year. The app made their work much easier by helping them gather
-          important data about popular keywords on Amazon. This saved them time
-          and made their job less complicated by 97%. <br/><br/>I received much positive praise
-          from the users for how easy and clean the UI was. This success
-          highlighted the importance of making designs that truly understand and
-          meet the users' needs. It also showed how working together and keeping
-          the company's style consistent, even for internal tools, can lead to
-          excellent results. In short, this project taught me the importance of
-          considering the users, collaborating effectively, and maintaining
-          brand identity to create a successful solution.
+          The web application I designed for L'Oréal Canada's Marketing team
+          experienced remarkable success, with a tenfold increase in users
+          within a year. The app significantly streamlined their work processes,
+          allowing them to efficiently collect essential data on popular Amazon
+          keywords. This not only saved them a substantial amount of time but
+          also simplified their tasks by 97%, leading to an impressive 20%
+          increase in their Amazon sales. <br />
+          <br />I received extensive positive feedback from users who
+          appreciated the user-friendly and neat user interface. This success
+          underscored the significance of crafting designs that genuinely cater
+          to users' requirements. It also emphasized the value of teamwork and
+          upholding the company's consistent style, even for internal tools,
+          which can yield outstanding outcomes. In summary, this project served
+          as a valuable lesson in prioritizing user needs, fostering effective
+          collaboration, and preserving brand identity to develop a successful
+          solution.
         </p>
       </div>
       <div className="text-container">

@@ -63,6 +63,22 @@
   align-items: flex-start;
 }
 
+.project-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column;
+}
+
+.image-frame {
+  width: 60%;
+}
+
+.work-row {
+  display: flex;
+  justify-content: space-between;
+}
+
 .text-container {
   width: 650px;
 }
