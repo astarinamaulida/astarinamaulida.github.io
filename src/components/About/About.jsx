@@ -59,7 +59,12 @@ export default function About() {
         </li>
         <li>A dreamer and a dream chaser, forever lifelong learner ✨</li>
       </ul>
-     
+      <h1 className="about-title">More about me..</h1>
+      <div className="pics-container">
+        <img className="pics" src="./me1.png" alt="more about me" />
+        <img className="pics" src="./me2.png" alt="more about me" />
+        <img className="pics" src="./me3.png" alt="more about me" />
+      </div>
     </div>
   );
 }
