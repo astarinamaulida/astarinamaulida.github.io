@@ -7,6 +7,11 @@ export default function Project1() {
       <div className="text-container">
         <div className="work-title">L'Oréal Canada</div>
         <p className="projects-stack">Amazon Keyword Planner</p>
+      </div>
+
+      <img className="image-frame" src="./loreal-product.png" />
+
+      <div className="text-container">
         <h1 className="sub-title">AT-A-GLANCE</h1>
         <p className="desc">
           I worked as a UX designer and front-end developer for Rocket Science
