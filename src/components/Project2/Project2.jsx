@@ -155,21 +155,6 @@ export default function Project2() {
           limited human resources.
         </p>
       </div>
-
-      <div className="text-container">
-        <h1 className="sub-title">WHAT I LEARNED</h1>
-        <p className="desc">
-          I had a great time working on the PulsarML website and collaborating
-          with Software Engineers (SWEs) and Machine Learning Engineers. Through
-          this experience, I improved my communication skills in meetings and
-          gained a deep understanding of PulsarML's technology and goals, which
-          helped me design the website effectively. I believe the website has
-          the potential to expand in the future, offering special pricing for
-          specific services, customer support, and documentation. However, I
-          recognize the challenge of scaling up the product and services due to
-          limited human resources.
-        </p>
-      </div>
     </div>
   );
 }
