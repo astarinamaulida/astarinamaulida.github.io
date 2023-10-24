@@ -76,6 +76,7 @@ export default function Project1() {
           Create a web app for L'Oréal's marketing team where they can quickly
           get the data of popular and high-selling keywords.
         </p>
+
         <h1 className="sub-title">USER INTERVIEW </h1>
         <p className="desc">
           I conducted remote user interviews to deeply understand user needs and
@@ -121,6 +122,18 @@ export default function Project1() {
           </ul>
         </p>
       </div>
+
+      <div className="text-container">
+        <h1 className="sub-title">DESIGN</h1>
+        <p className="desc">
+          Following the interviews with the Marketing team and L'Oréal Data Lab
+          leader, I compiled the information and proceeded to create my
+          wireframes. Below, you can find the high-fidelity wireframes that I
+          developed.
+        </p>
+      </div>
+      <img className="image-frame" src="./loreal-wireframe-highfid.png" />
+
       <div className="text-container">
         <h1 className="sub-title">INSPIRATION & MOOD BOARD</h1>
         <p className="desc">
@@ -131,6 +144,7 @@ export default function Project1() {
         </p>
       </div>
       <img className="image-frame" src="./loreal-inspiration.png" />
+
       <div className="text-container">
         <h1 className="sub-title">LOGO</h1>
         <p className="desc">
@@ -149,8 +163,8 @@ export default function Project1() {
           simplicity and a tech-savvy, powerful appearance.
         </p>
       </div>
-
       <img className="image-frame" src="./loreal-logo.png" />
+
       <div className="text-container">
         <h1 className="sub-title">COLORS</h1>
         <p className="desc">
