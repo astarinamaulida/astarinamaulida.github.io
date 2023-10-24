@@ -93,12 +93,14 @@ export default function Project2() {
       <div className="text-container">
         <h1 className="sub-title">DESIGN</h1>
         <p className="desc">
-          After interviewing with the product manager, SWEs, and machine
+        After interviewing with the product manager, SWEs, and machine
           learning engineers, I gathered all the necessary information for the
-          website. I began by sketching wireframes and page layouts on paper.
+          website. I began by creating low-fidelity wireframes and page layouts
+          on paper, then created high-fidelity wireframes on Figma.
         </p>
       </div>
-      <img className="image-frame" src="./pulsar-wireframe-paper.png" />
+      <img className="image-frame" src="./pulsar-wireframe-lowfid.png" />
+      <img className="image-frame" src="./pulsar-wireframe-highfid.png" />
 
       <div className="text-container">
         <h1 className="sub-title">INSPIRATION & MOOD BOARD</h1>
