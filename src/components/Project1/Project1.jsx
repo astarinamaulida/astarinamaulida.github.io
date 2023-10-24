@@ -126,10 +126,13 @@ export default function Project1() {
       <div className="text-container">
         <h1 className="sub-title">DESIGN</h1>
         <p className="desc">
-          Following the interviews with the Marketing team and L'Oréal Data Lab
-          leader, I compiled the information and proceeded to create my
-          wireframes. Below, you can find the high-fidelity wireframes that I
-          developed.
+          After speaking with the Marketing team and the leader of L'Oréal Data
+          Lab, I gathered the information I needed and began working on my
+          wireframes. You can see the detailed wireframes I created below.
+          Because the client is a large organization with a specific hierarchy
+          and internal systems, I opted for a simple design that doesn't have
+          the typical web app appearance. My goal was to make it resemble an
+          office application to convey a sense of reliability.
         </p>
       </div>
       <img className="image-frame" src="./loreal-wireframe-highfid.png" />
