@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <div className="footer">
       <footer className="footer">
-        <p className="desc">
+        <p className="p-footer">
           @2023 - Designed and developed by me using Figma + React JavaScript
         </p>
       </footer>
