@@ -89,6 +89,17 @@ export default function Project2() {
           visitors to understand the product.
         </p>
       </div>
+
+      <div className="text-container">
+        <h1 className="sub-title">DESIGN</h1>
+        <p className="desc">
+          After interviewing with the product manager, SWEs, and machine
+          learning engineers, I gathered all the necessary information for the
+          website. I began by sketching wireframes and page layouts on paper.
+        </p>
+      </div>
+      <img className="image-frame" src="./pulsar-wireframe-paper.png" />
+
       <div className="text-container">
         <h1 className="sub-title">INSPIRATION & MOOD BOARD</h1>
         <p className="desc">
@@ -122,7 +133,8 @@ export default function Project2() {
       <div className="text-container">
         <h1 className="sub-title">OTHER DESIGNS</h1>
         <p className="desc">
-          I followed the guidelines to other designs, and below is the example for publication design for PulsarML.
+          I followed the guidelines to other designs, and below is the example
+          for publication design for PulsarML.
         </p>
       </div>
       <img className="image-frame" src="./pulsar-product.png" />
