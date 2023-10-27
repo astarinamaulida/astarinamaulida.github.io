@@ -46,12 +46,12 @@ export default function Homepage() {
     <div>
       <div className="main-container">
         <div className="about">
-          <h1 className="title">HELLO</h1>
+          <h1 className="title">HELLO 👋✨</h1>
           <div className="big-title">
-            👋✨ I'm Asta, a UX designer and developer based in Toronto 🇨🇦.
-            <br />I am a bit of a unicorn with a bachelor in business, design
-            and web development diploma. I enjoy making user-friendly solutions
-            with clean, practical designs.
+            I'm Asta, a UX designer and developer based in Toronto 🇨🇦
+            <br />I am a bit of a 🦄 with a bachelor's in business and a diploma
+            in design and web development. I enjoy making user-friendly
+            solutions with clean, practical designs.
           </div>
           <div className="button-row">
             <BootstrapButton
