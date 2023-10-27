@@ -20,6 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "add-domain": "echo \"astarinamaulida.com\" > build/CNAME",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
