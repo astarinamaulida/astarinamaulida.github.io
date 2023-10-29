@@ -102,7 +102,7 @@ export default function Project3() {
           represent the brand. HIJABTALE launched during the COVID era,
           benefiting from increased online activity and e-commerce. In just six
           months, the business achieved remarkable success, ranking among the
-          top 10 in sales and experiencing a huge 1000% sales growth.s
+          top 10 in sales and experiencing a huge 1000% sales growth.
         </p>
       </div>
       <div className="text-container">
