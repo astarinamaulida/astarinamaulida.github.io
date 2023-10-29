@@ -49,8 +49,7 @@ export default function Homepage() {
           <h1 className="title">HELLO 👋✨</h1>
           <div className="big-title">
             I'm Asta, a UX designer and developer based in Toronto 🇨🇦
-            <br />I am a bit of a 🦄 with a bachelor's in business and a diploma
-            in design and web development. I enjoy making user-friendly
+            <br />I am a bit of a 🦄 with business, design and web development background. <br />I enjoy making user-friendly
             solutions with clean, practical designs.
           </div>
           <div className="button-row">
