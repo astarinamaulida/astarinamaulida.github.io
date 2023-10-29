@@ -7,6 +7,11 @@ export default function Project2() {
       <div className="text-container">
         <div className="work-title">PulsarML</div>
         <p className="projects-stack">Company Website</p>
+      </div>
+
+      <img className="image-frame" src="./pulsar-product.png" />
+
+      <div className="text-container">
         <h1 className="sub-title">AT-A-GLANCE</h1>
         <p className="desc">
           From 2021 to 2023, I worked as a UX designer and front-end developer
@@ -93,7 +98,7 @@ export default function Project2() {
       <div className="text-container">
         <h1 className="sub-title">DESIGN</h1>
         <p className="desc">
-        After interviewing with the product manager, SWEs, and machine
+          After interviewing with the product manager, SWEs, and machine
           learning engineers, I gathered all the necessary information for the
           website. I began by creating low-fidelity wireframes and page layouts
           on paper, then created high-fidelity wireframes on Figma.
@@ -139,7 +144,7 @@ export default function Project2() {
           for publication design for PulsarML.
         </p>
       </div>
-      <img className="image-frame" src="./pulsar-product.png" />
+      <img className="image-frame" src="./pulsar-other-product.png" />
 
       <div className="text-container">
         <h1 className="sub-title">PRODUCT SUCCESSES</h1>

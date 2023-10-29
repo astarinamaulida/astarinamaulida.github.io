@@ -186,34 +186,34 @@ export default function Project1() {
       <div className="text-container">
         <h1 className="sub-title">PRODUCT SUCCESSES</h1>
         <p className="desc">
-          The web application I designed for L'Oréal Canada's Marketing team
-          experienced remarkable success, with a tenfold increase in users
-          within a year. The app significantly streamlined their work processes,
-          allowing them to efficiently collect essential data on popular Amazon
-          keywords. This not only saved them a substantial amount of time but
-          also simplified their tasks by 97%, leading to an impressive 20%
-          increase in their Amazon sales. <br />
-          <br />I received extensive positive feedback from users who
-          appreciated the user-friendly and neat user interface. This success
-          underscored the significance of crafting designs that genuinely cater
-          to users' requirements. It also emphasized the value of teamwork and
-          upholding the company's consistent style, even for internal tools,
-          which can yield outstanding outcomes. In summary, this project served
-          as a valuable lesson in prioritizing user needs, fostering effective
-          collaboration, and preserving brand identity to develop a successful
-          solution.
+          The web app I designed for L'Oréal Canada's Marketing team was a huge
+          hit. It led to a tenfold increase in users within a year and made
+          their work much easier by simplifying tasks and saving a lot of time.
+          In fact, it reduced their workload by 97% and boosted their Amazon
+          sales by 30%.
+          <br />
+          Users loved the app's user-friendly and neat interface, which
+          highlighted the importance of creating designs that truly meet their
+          needs. It also showed how teamwork and sticking to the company's
+          consistent style, even for internal tools, can lead to outstanding
+          results. In a nutshell, this project taught me the value of focusing
+          on users, working together effectively, and maintaining brand identity
+          to create a successful solution.
         </p>
       </div>
       <div className="text-container">
         <h1 className="sub-title">WHAT I LEARNED</h1>
         <p className="desc">
-          Looking back, this project showed how focusing on what users really
-          need and working together can make things better. We made a solution
-          that made working with a lot of data easier and improved how people
-          use the app. We also learned that keeping the company's style, even
-          for apps used inside, is important. This project was a good example of
-          how being thoughtful in design and making technology work well can
-          save time and help people work better.
+          Looking back at this project, it taught me that understanding user
+          needs and teamwork can lead to better results. We created a solution
+          that made working with lots of data easier and improved the app's
+          usability. I also learned that sticking to the company's design style
+          for internal apps is important. When I started this project as the
+          only UX designer at L'Oréal Canada, I was a bit nervous about whether
+          my design would be liked. However I realized that focusing on
+          delivering the best and listening to users was the key. I'm happy that
+          users loved my work, especially since this was my first professional
+          project.
         </p>
       </div>
     </div>
