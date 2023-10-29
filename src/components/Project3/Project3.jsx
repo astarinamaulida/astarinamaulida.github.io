@@ -7,6 +7,11 @@ export default function Project3() {
       <div className="text-container">
         <div className="work-title">HIJABTALE</div>
         <p className="projects-stack">Online Store</p>
+      </div>
+
+      <img className="image-frame" src="./hijabtale-product.png" />
+
+      <div className="text-container">
         <h1 className="sub-title">AT-A-GLANCE</h1>
         <p className="desc">
           While working at Petra International Inc between 2019 and 2021, I set
@@ -87,14 +92,32 @@ export default function Project3() {
       </div>
       <img className="image-frame" src="./hijabtale-logo.png" />
 
-      <img className="image-frame" src="./hijabtale-pic3.png" />
       <div className="text-container">
         <h1 className="sub-title">PRODUCT SUCCESSES</h1>
-        <p className="desc">On progress</p>
+        <p className="desc">
+          I'm excited about the product branding and user analysis. HIJABTALE
+          has created a strong brand identity, especially for young,
+          professional women, with its elegant, clean, and sophisticated website
+          design. The website's clean design and well-chosen colors truly
+          represent the brand. HIJABTALE launched during the COVID era,
+          benefiting from increased online activity and e-commerce. In just six
+          months, the business achieved remarkable success, ranking among the
+          top 10 in sales and experiencing a huge 1000% sales growth.s
+        </p>
       </div>
       <div className="text-container">
         <h1 className="sub-title">WHAT I LEARNED</h1>
-        <p className="desc">On progress</p>
+        <p className="desc">
+          Managing over 200 different product variations was a big task.
+          Creating pages for each product with descriptions took a lot of time.
+          So, HIJABTALE decided to focus on selling the products that were
+          popular and stop selling the ones that didn't sell well. This helped
+          the business work better. I did everything on my own, which was a bit
+          hard. I had to manage things like advertising and making sure the
+          website was easy to use. But it was a great learning experience. I
+          learned a lot about making products, advertising, and making customers
+          happy. It was a journey of learning and growing.
+        </p>
       </div>
     </div>
   );
