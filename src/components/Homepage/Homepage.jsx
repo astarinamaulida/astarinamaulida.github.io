@@ -44,6 +44,7 @@ const BootstrapButton = styled(Button)({
 export default function Homepage() {
   return (
     <div>
+      {/* <img className="background" src="/intro.png"/> */}
       <div className="main-container">
         <div className="about">
           <h1 className="title">HELLO 👋✨</h1>
