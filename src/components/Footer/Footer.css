@@ -1,17 +1,23 @@
 .footer {
   flex-shrink: 0;
   text-align: center;
-  margin-top: auto;
+  margin-top: 50px;
   font-size: 1px;
 }
 
 .p-footer {
-  font-size: 14px;
+  font-size: 12px;
   line-height: 26px;
   font-weight: 400;
   color: #656565;
   margin-bottom: 20px;
 }
+
+/* .arrow {
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+} */
 
 @media (max-width: 600px) {
   .p-footer {

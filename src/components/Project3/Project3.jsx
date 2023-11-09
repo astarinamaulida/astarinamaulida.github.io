@@ -137,6 +137,22 @@ export default function Project3() {
           happy. It was a journey of learning and growing.
         </p>
       </div>
+      <div className="button-row">
+        <BootstrapButton
+          sx={{
+            marginTop: "30px",
+            marginBottom: "30px",
+            paddingLeft: "20px",
+            paddingRight: "20px",
+          }}
+          variant="contained"
+          target="_blank"
+          disableRipple
+          href="/"
+        >
+          See Other Projects
+        </BootstrapButton>
+      </div>
     </div>
   );
 }

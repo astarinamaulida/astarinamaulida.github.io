@@ -9,6 +9,7 @@
     "@emotion/styled": "^11.10.0",
     "@mui/material": "^5.10.1",
     "add": "^2.0.6",
+    "bootstrap-icons": "^1.11.1",
     "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-animations": "^1.0.0",

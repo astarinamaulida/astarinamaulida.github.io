@@ -264,6 +264,22 @@ export default function Project1() {
           L'Oréal Canada.
         </p>
       </div>
+      <div className="button-row">
+        <BootstrapButton
+          sx={{
+            marginTop: "30px",
+            marginBottom: "30px",
+            paddingLeft: "20px",
+            paddingRight: "20px",
+          }}
+          variant="contained"
+          target="_blank"
+          disableRipple
+          href="/"
+        >
+          See Other Projects
+        </BootstrapButton>
+      </div>
     </div>
   );
 }
