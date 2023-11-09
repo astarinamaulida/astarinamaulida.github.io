@@ -1,4 +1,5 @@
 import React from "react";
+import { BootstrapButton } from "../../constants";
 import "./Project2.css";
 
 export default function Project2() {
@@ -173,6 +174,21 @@ export default function Project2() {
           recognize the challenge of scaling up the product and services due to
           limited human resources.
         </p>
+      </div>
+      <div className="button-row">
+        <BootstrapButton
+          sx={{
+            marginTop: "30px",
+            marginBottom: "30px",
+            paddingLeft: "20px",
+            paddingRight: "20px",
+          }}
+          variant="contained"
+          disableRipple
+          href="https://www.pulsar.ml"
+        >
+          See PulsarML Live
+        </BootstrapButton>
       </div>
     </div>
   );

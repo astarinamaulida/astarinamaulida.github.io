@@ -1,4 +1,5 @@
 import React from "react";
+import { BootstrapButton } from "../../constants";
 import "./Project3.css";
 
 export default function Project3() {
@@ -118,6 +119,21 @@ export default function Project3() {
           learned a lot about making products, advertising, and making customers
           happy. It was a journey of learning and growing.
         </p>
+      </div>
+      <div className="button-row">
+        <BootstrapButton
+          sx={{
+            marginTop: "30px",
+            marginBottom: "30px",
+            paddingLeft: "20px",
+            paddingRight: "20px",
+          }}
+          variant="contained"
+          disableRipple
+          href="https://www.hijabtale.com"
+        >
+          See HIJABTALE Live
+        </BootstrapButton>
       </div>
     </div>
   );
