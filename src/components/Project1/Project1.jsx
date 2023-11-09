@@ -11,6 +11,53 @@ export default function Project1() {
       </div>
 
       <img className="image-frame" src="./loreal-product.png" />
+      <div className="button-row">
+        <BootstrapButton
+          sx={{
+            marginTop: "30px",
+            marginBottom: "30px",
+            marginRight: "10px",
+            paddingLeft: "20px",
+            paddingRight: "20px",
+          }}
+          variant="contained"
+          target="_blank"
+          disableRipple
+          href="https://www.loreal.com/en/canada/news/brands/loreal-canada-launches-a-business-data-lab/"
+        >
+          Featured in L'Oréal Groupe
+        </BootstrapButton>
+        <BootstrapButton
+          sx={{
+            marginTop: "30px",
+            marginBottom: "30px",
+            marginRight: "10px",
+            paddingLeft: "20px",
+            paddingRight: "20px",
+          }}
+          variant="contained"
+          target="_blank"
+          disableRipple
+          href="https://www.bloomberg.com/press-releases/2022-06-17/l-or-al-canada-launches-a-business-data-lab"
+        >
+          Featured in Bloomberg
+        </BootstrapButton>
+        <BootstrapButton
+          sx={{
+            marginTop: "30px",
+            marginBottom: "30px",
+            marginRight: "10px",
+            paddingLeft: "20px",
+            paddingRight: "20px",
+          }}
+          variant="contained"
+          target="_blank"
+          disableRipple
+          href="https://strategyonline.ca/2022/07/05/loreal-opens-up-about-its-new-business-data-lab/"
+        >
+          Featured in Strategy
+        </BootstrapButton>
+      </div>
 
       <div className="text-container">
         <h1 className="sub-title">AT-A-GLANCE</h1>
@@ -213,56 +260,9 @@ export default function Project1() {
           only UX designer at L'Oréal Canada, I was a bit nervous about whether
           my design would be liked. However I realized that focusing on
           delivering the best and listening to users was the key. I'm happy that
-          users loved my work, especially since this was my first professional
-          project.
+          users loved my work, especially since this was my first project with
+          L'Oréal Canada.
         </p>
-      </div>
-      <div className="button-row">
-        <BootstrapButton
-          sx={{
-            marginTop: "30px",
-            marginBottom: "30px",
-            marginRight: "10px",
-            paddingLeft: "20px",
-            paddingRight: "20px",
-          }}
-          variant="contained"
-          target="_blank"
-          disableRipple
-          href="https://www.loreal.com/en/canada/news/brands/loreal-canada-launches-a-business-data-lab/"
-        >
-          Featured in L'Oréal Groupe
-        </BootstrapButton>
-        <BootstrapButton
-          sx={{
-            marginTop: "30px",
-            marginBottom: "30px",
-            marginRight: "10px",
-            paddingLeft: "20px",
-            paddingRight: "20px",
-          }}
-          variant="contained"
-          target="_blank"
-          disableRipple
-          href="https://www.bloomberg.com/press-releases/2022-06-17/l-or-al-canada-launches-a-business-data-lab"
-        >
-          Featured in Bloomberg
-        </BootstrapButton>
-        <BootstrapButton
-          sx={{
-            marginTop: "30px",
-            marginBottom: "30px",
-            marginRight: "10px",
-            paddingLeft: "20px",
-            paddingRight: "20px",
-          }}
-          variant="contained"
-          target="_blank"
-          disableRipple
-          href="https://strategyonline.ca/2022/07/05/loreal-opens-up-about-its-new-business-data-lab/"
-        >
-          Featured in Strategy
-        </BootstrapButton>
       </div>
     </div>
   );

@@ -6,7 +6,8 @@ export default function Footer() {
     <div className="footer">
       <footer className="footer">
         <p className="p-footer">
-          @2023 - Designed and developed by me using Figma + React JavaScript
+          @2023 - Designed with Figma and developed with React JavaScript by
+          Astarina Maulida
         </p>
       </footer>
     </div>

@@ -12,6 +12,23 @@ export default function Project2() {
 
       <img className="image-frame" src="./pulsar-product.png" />
 
+      <div className="button-row">
+        <BootstrapButton
+          sx={{
+            marginTop: "30px",
+            marginBottom: "30px",
+            paddingLeft: "20px",
+            paddingRight: "20px",
+          }}
+          variant="contained"
+          target="_blank"
+          disableRipple
+          href="https://www.pulsar.ml"
+        >
+          See PulsarML Live
+        </BootstrapButton>
+      </div>
+
       <div className="text-container">
         <h1 className="sub-title">AT-A-GLANCE</h1>
         <p className="desc">
@@ -174,22 +191,6 @@ export default function Project2() {
           recognize the challenge of scaling up the product and services due to
           limited human resources.
         </p>
-      </div>
-      <div className="button-row">
-        <BootstrapButton
-          sx={{
-            marginTop: "30px",
-            marginBottom: "30px",
-            paddingLeft: "20px",
-            paddingRight: "20px",
-          }}
-          variant="contained"
-          target="_blank"
-          disableRipple
-          href="https://www.pulsar.ml"
-        >
-          See PulsarML Live
-        </BootstrapButton>
       </div>
     </div>
   );
