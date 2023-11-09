@@ -1,4 +1,5 @@
 import React from "react";
+import { BootstrapButton } from "../../constants";
 import "./Project1.css";
 
 export default function Project1() {
@@ -215,6 +216,50 @@ export default function Project1() {
           users loved my work, especially since this was my first professional
           project.
         </p>
+      </div>
+      <div className="button-row">
+        <BootstrapButton
+          sx={{
+            marginTop: "30px",
+            marginBottom: "30px",
+            marginRight: "10px",
+            paddingLeft: "20px",
+            paddingRight: "20px",
+          }}
+          variant="contained"
+          disableRipple
+          href="https://www.loreal.com/en/canada/news/brands/loreal-canada-launches-a-business-data-lab/"
+        >
+          Featured in L'Oréal Groupe
+        </BootstrapButton>
+        <BootstrapButton
+          sx={{
+            marginTop: "30px",
+            marginBottom: "30px",
+            marginRight: "10px",
+            paddingLeft: "20px",
+            paddingRight: "20px",
+          }}
+          variant="contained"
+          disableRipple
+          href="https://www.bloomberg.com/press-releases/2022-06-17/l-or-al-canada-launches-a-business-data-lab"
+        >
+          Featured in Bloomberg
+        </BootstrapButton>
+        <BootstrapButton
+          sx={{
+            marginTop: "30px",
+            marginBottom: "30px",
+            marginRight: "10px",
+            paddingLeft: "20px",
+            paddingRight: "20px",
+          }}
+          variant="contained"
+          disableRipple
+          href="https://strategyonline.ca/2022/07/05/loreal-opens-up-about-its-new-business-data-lab/"
+        >
+          Featured in Strategy
+        </BootstrapButton>
       </div>
     </div>
   );
