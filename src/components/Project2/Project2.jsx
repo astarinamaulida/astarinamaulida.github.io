@@ -184,6 +184,7 @@ export default function Project2() {
             paddingRight: "20px",
           }}
           variant="contained"
+          target="_blank"
           disableRipple
           href="https://www.pulsar.ml"
         >

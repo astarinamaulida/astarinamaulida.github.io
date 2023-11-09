@@ -227,6 +227,7 @@ export default function Project1() {
             paddingRight: "20px",
           }}
           variant="contained"
+          target="_blank"
           disableRipple
           href="https://www.loreal.com/en/canada/news/brands/loreal-canada-launches-a-business-data-lab/"
         >
@@ -241,6 +242,7 @@ export default function Project1() {
             paddingRight: "20px",
           }}
           variant="contained"
+          target="_blank"
           disableRipple
           href="https://www.bloomberg.com/press-releases/2022-06-17/l-or-al-canada-launches-a-business-data-lab"
         >
@@ -255,6 +257,7 @@ export default function Project1() {
             paddingRight: "20px",
           }}
           variant="contained"
+          target="_blank"
           disableRipple
           href="https://strategyonline.ca/2022/07/05/loreal-opens-up-about-its-new-business-data-lab/"
         >

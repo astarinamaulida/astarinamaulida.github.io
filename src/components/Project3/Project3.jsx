@@ -130,6 +130,7 @@ export default function Project3() {
           }}
           variant="contained"
           disableRipple
+          target="_blank"
           href="https://www.hijabtale.com"
         >
           See HIJABTALE Live
