@@ -1,4 +1,5 @@
 import React from "react";
+import { BootstrapButton } from "../../constants";
 import "./About.css";
 
 export default function About() {
@@ -10,7 +11,6 @@ export default function About() {
           <p className="about-desc">
             I'm a fusion of two worlds: design and development. <br />I firmly
             believe that these realms complement and empower each other. ✨
-            <br />
           </p>
           <h1 className="about-title">My career so far</h1>
           <p className="about-desc">
@@ -37,6 +37,36 @@ export default function About() {
               Frontend Development <br />
             </p>
           </div>
+          <br/>
+          <div className="button-row">
+            <BootstrapButton
+              sx={{ marginRight: "20px", width: "100px"  }}
+              target="_blank"
+              variant="contained"
+              disableRipple
+              href="https://www.linkedin.com/in/astarinamaulida/"
+            >
+              LinkedIn
+            </BootstrapButton>
+            <BootstrapButton
+              sx={{ marginRight: "20px" , width: "100px"  }}
+              target="_blank"
+              variant="contained"
+              disableRipple
+              href="https://github.com/astarinamaulida"
+            >
+              Github
+            </BootstrapButton>
+            <BootstrapButton
+             sx={{  width: "100px"  }}
+              target="_blank"
+              variant="contained"
+              disableRipple
+              href="mailto:astarina.maulida@gmail.com"
+            >
+              Email
+            </BootstrapButton>
+          </div>
         </div>
         <div className="profile-pic-container">
           <img
@@ -48,13 +78,14 @@ export default function About() {
       </div>
       <h1 className="about-title">Fun Facts, I am..</h1>
       <ul className="about-desc">
+        <li>A traveller with Japan as my favorite country so far.</li>
         <li>An avid reader, so much so that I even read when I eat.</li>
         <li>
           An ambivert, loving the company of people and cherishing my alone time
           equally.
         </li>
         <li>
-          A romantic and positive person. I like to romanticizing things, seeing
+          A romantic and positive person. I like to romanticize things, seeing
           the world with all its colors and butterflies.
         </li>
         <li>A dreamer and a dream chaser, forever lifelong learner ✨</li>

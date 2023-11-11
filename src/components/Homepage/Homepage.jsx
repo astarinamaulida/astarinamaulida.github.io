@@ -17,7 +17,7 @@ export default function Homepage() {
           </div>
           <div className="button-row">
             <BootstrapButton
-              sx={{ marginRight: "20px" }}
+              sx={{ marginRight: "20px", width: "100px" }}
               target="_blank"
               variant="contained"
               disableRipple
@@ -26,7 +26,7 @@ export default function Homepage() {
               LinkedIn
             </BootstrapButton>
             <BootstrapButton
-              sx={{ marginRight: "20px" }}
+              sx={{ marginRight: "20px", width: "100px" }}
               target="_blank"
               variant="contained"
               disableRipple
@@ -35,6 +35,7 @@ export default function Homepage() {
               Github
             </BootstrapButton>
             <BootstrapButton
+              sx={{ width: "100px" }}
               target="_blank"
               variant="contained"
               disableRipple
