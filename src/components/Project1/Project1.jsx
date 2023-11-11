@@ -11,7 +11,7 @@ export default function Project1() {
       </div>
 
       <img className="image-frame" src="./loreal-product.png" />
-      <div className="button-row">
+      <div className="button-row-project">
         <BootstrapButton
           sx={{
             marginTop: "30px",
