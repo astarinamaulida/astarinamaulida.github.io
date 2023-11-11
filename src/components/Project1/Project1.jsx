@@ -230,7 +230,23 @@ export default function Project1() {
           conveyed the Loreal color theme.
         </p>
       </div>
+
       <img className="image-frame" src="./loreal-color-palette.png" />
+      <div className="text-container">
+        <h1 className="sub-title">FINAL PRODUCT</h1>
+        <p className="desc">
+          Here is the final look at L'Oréal Amazon Keyword Planner. I highlighted 6 pages: Login,
+          Homepage, Keyword Plan, Keyword Search, Product Description Generator,
+          and Trending Keywords. I did not add the logo or name of the project
+          for web security purposes, so it has no logo or project name.
+        </p>
+      </div>
+      <img
+        className="image-frame"
+        src="./loreal-final.png"
+        alt="loreal final look"
+      />
+
       <div className="text-container">
         <h1 className="sub-title">PRODUCT SUCCESSES</h1>
         <p className="desc">
