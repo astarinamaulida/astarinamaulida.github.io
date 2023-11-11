@@ -132,7 +132,7 @@ export default function Project2() {
           pulsar, together with vision of mission of the company.
         </p>
       </div>
-      <img className="image-frame" src="./pulsar-inspiration.png" />
+      <img className="image-frame" src="./pulsar-inspiration.png" alt="pulsar inspiration"/>
 
       <div className="text-container">
         <h1 className="sub-title">COLORS</h1>
@@ -143,7 +143,7 @@ export default function Project2() {
           trustworthy feel to PulsarML as a brand.
         </p>
       </div>
-      <img className="image-frame" src="./pulsar-color-palette.png" />
+      <img className="image-frame" src="./pulsar-color-palette.png" alt="pulsar color palette" />
 
       <div className="text-container">
         <h1 className="sub-title">LOGO</h1>
@@ -153,7 +153,17 @@ export default function Project2() {
           represents the essence of a pulsar.
         </p>
       </div>
-      <img className="image-frame" src="./pulsar-logo.png" />
+      <img className="image-frame" src="./pulsar-logo.png" alt="pulsar logo" />
+
+      <div className="text-container">
+        <h1 className="sub-title">FINAL PRODUCT</h1>
+        <p className="desc">
+          Here is the final look of PulsarML. I highlighted 4 pages: Home, How
+          it Works, Features, and Team. Along the way, there are some updates
+          and changes according to business needs.
+        </p>
+      </div>
+      <img className="image-frame" src="./pulsar-final.png" alt="pulsar final look" />
 
       <div className="text-container">
         <h1 className="sub-title">OTHER DESIGNS</h1>
