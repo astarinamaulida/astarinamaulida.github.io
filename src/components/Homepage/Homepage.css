@@ -21,6 +21,7 @@ h1 {
 .button-row {
   margin-top: 20px;
   margin-bottom: 50px;
+  display: flex;
 }
 
 .project-title {
@@ -121,6 +122,12 @@ img {
 @media (max-width: 600px) {
   .row {
     gap: 300px;
+  }
+
+  .button-row {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
   }
 
   .project-frame {
