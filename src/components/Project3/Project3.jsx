@@ -96,17 +96,20 @@ export default function Project3() {
       <div className="text-container">
         <h1 className="sub-title">COLORS</h1>
         <p className="desc">
-          The app primarily used black and brown as its main colors. Different
-          shades of gray, light gray, and milk white were added to create a
-          sophisticated and cohesive look. Together, these colors effectively
-          conveyed the Loreal color theme.
+          I chose earthy colors to make the design look classy, sophisticated
+          and elegant. This also conveys simplicity, which is attractive to our
+          target audience of women between 25 and 35 years old.
         </p>
       </div>
       <img className="image-frame" src="./hijabtale-color-palette.png" />
 
       <div className="text-container">
         <h1 className="sub-title">LOGO</h1>
-        <p className="desc"></p>
+        <p className="desc">
+          I opted for the Josefin Sans font in the logo to create a bold and
+          strong impression for the brand. Using black and white for the logo
+          delivers a modern, simple look that truly represents the entire brand.{" "}
+        </p>
       </div>
       <img className="image-frame" src="./hijabtale-logo.png" />
 
