@@ -1,14 +1,14 @@
 import React from "react";
 import About from "./components/About/About";
+import Arrow from "./components/Arrow/Arrow";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
-import { Route, Routes, Link } from "react-router-dom";
 import Homepage from "./components/Homepage/Homepage";
-import "./App.css";
-import Work from "./components/Work/Work";
 import Project1 from "./components/Project1/Project1";
 import Project2 from "./components/Project2/Project2";
 import Project3 from "./components/Project3/Project3";
+import { Route, Routes, Link } from "react-router-dom";
+import "./App.css";
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
               <>
                 <Navbar />
                 <Homepage />
+                <Arrow />
                 <Footer />
               </>
             }
@@ -32,6 +33,7 @@ function App() {
               <>
                 <Navbar />
                 <About />
+                <Arrow />
                 <Footer />
               </>
             }
@@ -42,6 +44,7 @@ function App() {
               <>
                 <Navbar />
                 <Project1 />
+                <Arrow />
                 <Footer />
               </>
             }
@@ -52,6 +55,7 @@ function App() {
               <>
                 <Navbar />
                 <Project2 />
+                <Arrow />
                 <Footer />
               </>
             }
@@ -62,6 +66,7 @@ function App() {
               <>
                 <Navbar />
                 <Project3 />
+                <Arrow />
                 <Footer />
               </>
             }

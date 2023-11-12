@@ -13,12 +13,6 @@
   margin-bottom: 20px;
 }
 
-/* .arrow {
-  position: absolute;
-  display: flex;
-  align-items: flex-end;
-} */
-
 @media (max-width: 600px) {
   .p-footer {
     font-size: 10px;
