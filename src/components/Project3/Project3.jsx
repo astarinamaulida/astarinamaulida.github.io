@@ -10,7 +10,7 @@ export default function Project3() {
         <p className="projects-stack">Online Store</p>
       </div>
 
-      <img className="image-frame" src="./hijabtale-product.png" />
+      <img className="image-frame" src="work3.png" alt="hijabtale pics" />
 
       <div className="button-row">
         <BootstrapButton
@@ -85,8 +85,30 @@ export default function Project3() {
         </p>
 
         <h1 className="sub-title">COMPETITORS ANALYSIS</h1>
-        <p className="desc">On progress</p>
       </div>
+      <img className="image-frame" src="./hijabtale-competitors.png" />
+      <div className="row">
+        <div>
+          <ul className="desc">
+            <li>Chat with support feature is available </li>
+            <li>The pictures are not standardized</li>
+            <li>The price is affordable</li>
+            <li>
+              Users need to hover over each picture to check the availability
+            </li>
+            <li> Free Shipping with no minimum order for Canada and US</li>
+          </ul>
+        </div>
+        <div>
+          <ul className="desc">
+            <li>Chat with support feature is unavailable </li>
+            <li>The pictures are standardized with beautiful pics</li>
+            <li>The price is in the high range</li>
+            <li>No free shipping</li>
+          </ul>
+        </div>
+      </div>
+
       <div className="text-container">
         <h1 className="sub-title">INSPIRATION & MOOD BOARD</h1>
         <p className="desc"></p>
@@ -112,6 +134,14 @@ export default function Project3() {
         </p>
       </div>
       <img className="image-frame" src="./hijabtale-logo.png" />
+
+      <div className="text-container">
+        <h1 className="sub-title">FINAL PRODUCT</h1>
+        <p className="desc">
+          Here is the final look of HIJABTALE online store. I highlighted landing screen, product page, and checkout process.
+        </p>
+      </div>
+      <img className="image-frame" src="./hijabtale-product.png" />
 
       <div className="text-container">
         <h1 className="sub-title">PRODUCT SUCCESSES</h1>

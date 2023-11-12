@@ -91,7 +91,7 @@ export default function Homepage() {
           <a href="/hijabtale-project" style={{ textDecoration: "none" }}>
             <div className="project-frame">
               <span className="project-image">
-                <img src="work3.png" alt="hijabtale gif" />
+                <img src="work3.png" alt="hijabtale pics" />
               </span>
               <div className="desc-frame">
                 <div className="project-header">
