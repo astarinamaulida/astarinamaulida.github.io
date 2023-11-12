@@ -2,5 +2,13 @@
   position: fixed;
   bottom: 20px;
   right: 20px;
-  z-index: 1000; /* Set as needed to make sure it's above other content */
+  z-index: 1000;
+}
+
+.arrow svg {
+  transition: fill 0.3s, filter 0.3s;
+}
+
+.arrow:hover svg {
+  fill: rgb(137, 137, 137);
 }
